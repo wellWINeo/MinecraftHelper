@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -15,6 +16,7 @@ public class ChooseItem extends AppCompatActivity {
 
     ListView listView;
     TextView textView;
+    ImageView imgView;
     String[] listItems;
 
     @Override
@@ -25,16 +27,25 @@ public class ChooseItem extends AppCompatActivity {
         listView = findViewById(R.id.lvChoose);
         textView = findViewById(R.id.txtView);
         listItems = getResources().getStringArray(R.array.items_array);
+        Integer[] listImages = {
+                R.drawable.earth_block,
+                R.drawable.earth_block,
+                R.drawable.earth_block,
+                R.drawable.earth_block,
+                R.drawable.earth_block
+        };
 
-        final ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_list_item_1, android.R.id.text1,
-                listItems);
+        final CustomListViewAdapter adapter = new CustomListViewAdapter(this,
+                listItems, listImages);
+
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener((adapterView, view, i, l) -> {
-            String value = adapter.getItem(i);
+            String value = listItems[i];
             //Toast.makeText(getApplicationContext(), value, Toast.LENGTH_SHORT).show();
-            setResult(RESULT_OK, new Intent().putExtra("chosen", value));
+            Intent intent = new Intent();
+            intent.putExtra("value", value);
+            setResult(RESULT_OK, intent);
             finish();
         });
 

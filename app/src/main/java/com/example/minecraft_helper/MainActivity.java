@@ -1,17 +1,35 @@
 package com.example.minecraft_helper;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btn;
     Button[][] grid;
+    int pressedButton;
+
+    // for custom ListView
+
+
+
+    ActivityResultLauncher<Intent> mStartForResult = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            result -> {
+                Intent intent = result.getData();
+                if (result.getResultCode() == Activity.RESULT_OK && intent != null) {
+                    Bundle bundle = intent.getExtras();
+                    Button button = findViewById(this.pressedButton);
+                    button.setText(bundle.getString("value"));
+                }
+            });
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init(){
+
         this.grid = new Button[][]{
                 // row 0
                 { findViewById(R.id.btn_0_0),
@@ -49,20 +68,11 @@ public class MainActivity extends AppCompatActivity {
             for(Button button : btnRow){
                 button.setOnClickListener(view -> {
                     Intent intent = new Intent(MainActivity.this, ChooseItem.class);
-                    startActivity(intent);
+                    this.pressedButton = view.getId();
+                    //startActivity(intent);
+                    mStartForResult.launch(intent);
                 });
             }
-        }
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if (resultCode == RESULT_OK && data != null) {
-            Bundle bundle = data.getExtras();
-            String value = bundle.getString("chosen");
-            Toast.makeText(getApplicationContext(), value, Toast.LENGTH_SHORT).show();
         }
     }
 }
