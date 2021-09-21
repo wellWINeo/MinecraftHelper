@@ -19,75 +19,85 @@
         <!-- row 0 -->
         <TableRow>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_0_0"
+                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_0_1"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_0_2"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200" />
         </TableRow>
 
         <!-- row 1 -->
         <TableRow>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_1_0"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_1_1"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_1_2"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200" />
         </TableRow>
 
         <!-- row 2 -->
         <TableRow>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_2_0"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_2_1"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_2_2"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"
+                app:iconTint="@null"
                 android:backgroundTint="@color/teal_200"/>
         </TableRow>
     </TableLayout>

@@ -27,7 +27,8 @@ public class ChooseItem extends AppCompatActivity {
         listView = findViewById(R.id.lvChoose);
         textView = findViewById(R.id.txtView);
         listItems = getResources().getStringArray(R.array.items_array);
-        Integer[] listImages = {
+        Integer[] listImages;
+        listImages = new Integer[]{
                 R.drawable.earth_block,
                 R.drawable.earth_block,
                 R.drawable.earth_block,
@@ -42,12 +43,10 @@ public class ChooseItem extends AppCompatActivity {
 
         listView.setOnItemClickListener((adapterView, view, i, l) -> {
             String value = listItems[i];
-            //Toast.makeText(getApplicationContext(), value, Toast.LENGTH_SHORT).show();
             Intent intent = new Intent();
             intent.putExtra("value", value);
             setResult(RESULT_OK, intent);
             finish();
         });
-
     }
 }
