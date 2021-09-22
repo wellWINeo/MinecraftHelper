@@ -21,7 +21,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_0_0"
-                style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
                 android:layout_margin="10dp"
                 android:width="70dp"
                 android:height="70dp"

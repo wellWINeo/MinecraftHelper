@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Stone",
+    "tag": "stone"
+//    "tag": "earth_block"
+  },
+  {
+    "name": "Granite",
+    "tag": "granite"
+//    "tag": "earth_block"
+  },
+  {
+    "name": "Polished Granite",
+    "tag": "polished_granite"
+//    "tag": "earth_block"
+  },
+  {
+    "name": "Diorite",
+    "tag": "diorite"
+//    "tag": "earth_block"
+  },
+  {
+    "name": "Polished Diorite",
+    "tag": "polished_diorite"
+//    "tag": "earth_block"
+  }
+]

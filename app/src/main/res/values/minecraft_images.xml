@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="minecraft_images">
+        <item>@drawable/stone</item>
+        <item>@drawable/granite</item>
+        <item>@drawable/polished_granite</item>
+        <item>@drawable/diorite</item>
+        <item>@drawable/polished_diorite</item>
+    </integer-array>
+</resources>

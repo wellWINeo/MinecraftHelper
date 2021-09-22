@@ -2,7 +2,7 @@ package com.example.minecraft_helper;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,14 +15,15 @@ import androidx.annotation.Nullable;
 
 public class CustomListViewAdapter extends ArrayAdapter {
     private final String[] itemNames;
-    private final Integer[] imgsId;
+    private final Integer[] itemImages;
     private final Activity context;
 
-    public CustomListViewAdapter(Activity context, String[] itemNames, Integer[] imgsId) {
+    public CustomListViewAdapter(Activity context, String[] itemNames,
+                                 Integer[] imgsId) {
         super(context, R.layout.item_view, itemNames);
         this.context = context;
         this.itemNames = itemNames;
-        this.imgsId = imgsId;
+        this.itemImages = imgsId;
     }
 
     @SuppressLint("InflateParams")
@@ -39,7 +40,9 @@ public class CustomListViewAdapter extends ArrayAdapter {
         ImageView imgView = view.findViewById(R.id.imgView);
 
         txtView.setText(itemNames[position]);
-        imgView.setImageResource(imgsId[position]);
+        imgView.setImageResource(itemImages[position]);
+        Log.d("image", itemImages[position].toString());
+
 
         return view;
     }

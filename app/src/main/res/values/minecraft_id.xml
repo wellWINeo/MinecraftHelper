@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="minecraft_id">
+        <item>stone</item>
+        <item>granite</item>
+        <item>polished_granite</item>
+        <item>diorite</item>
+        <item>polished_diorite</item>
+    </string-array>
+</resources>
