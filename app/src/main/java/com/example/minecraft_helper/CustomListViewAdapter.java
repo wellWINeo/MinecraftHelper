@@ -2,7 +2,6 @@ package com.example.minecraft_helper;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,13 +12,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import java.util.ArrayList;
+
 public class CustomListViewAdapter extends ArrayAdapter {
-    private final String[] itemNames;
-    private final Integer[] itemImages;
+    private final ArrayList<String> itemNames;
+    private final ArrayList<Integer> itemImages;
     private final Activity context;
 
-    public CustomListViewAdapter(Activity context, String[] itemNames,
-                                 Integer[] imgsId) {
+    public CustomListViewAdapter(Activity context, ArrayList<String> itemNames,
+                                 ArrayList<Integer> imgsId) {
         super(context, R.layout.item_view, itemNames);
         this.context = context;
         this.itemNames = itemNames;
@@ -39,10 +40,8 @@ public class CustomListViewAdapter extends ArrayAdapter {
         TextView txtView = view.findViewById(R.id.txtView);
         ImageView imgView = view.findViewById(R.id.imgView);
 
-        txtView.setText(itemNames[position]);
-        imgView.setImageResource(itemImages[position]);
-        Log.d("image", itemImages[position].toString());
-
+        txtView.setText(itemNames.get(position));
+        imgView.setImageResource(itemImages.get(position));
 
         return view;
     }

@@ -1,44 +1,39 @@
 package com.example.minecraft_helper;
 
-import static java.nio.charset.StandardCharsets.UTF_8;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.PathDashPathEffect;
 import android.os.Bundle;
-import android.renderscript.ScriptGroup;
-import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonParser;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.ResourceBundle;
+import java.util.ArrayList;
+import java.util.Locale;
 
 public class ChooseItem extends AppCompatActivity {
 
+    // components
     ListView listView;
     TextView textView;
-    ImageView imgView;
-    Integer[] listImages;
-    String[] listItemsNames;
+    EditText editText;
+
+    // arrays
+    private final ArrayList<Integer> listImages = new ArrayList<>();
+    private final ArrayList<String> listItemsNames = new ArrayList<>();
+    private final ArrayList<String> listTags = new ArrayList<>();
+
+    // adapter
+    private CustomListViewAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,40 +42,77 @@ public class ChooseItem extends AppCompatActivity {
 
         listView = findViewById(R.id.lvChoose);
         textView = findViewById(R.id.txtView);
+        editText = findViewById(R.id.etSearch);
 
-        this.readItemsJSON();
 
-        Log.i("image_array", Arrays.toString(listImages));
-
-        final CustomListViewAdapter adapter = new CustomListViewAdapter(this, listItemsNames,
+        this.adapter = new CustomListViewAdapter(this, listItemsNames,
                 listImages);
+
+        readItemsJSON();
 
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener((adapterView, view, i, l) -> {
-            String value = listItemsNames[i];
+            String value = listTags.get(i);
             Intent intent = new Intent();
             intent.putExtra("value", value);
-            intent.putExtra("image", listImages[i]);
+            intent.putExtra("image", listImages.get(i));
             setResult(RESULT_OK, intent);
             finish();
         });
+
+        editText.addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) { }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                if(charSequence.toString().equals("")){
+                    readItemsJSON();
+                } else {
+                    searchItem(charSequence.toString());
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) { }
+        });
     }
+
 
     private void readItemsJSON(){
         // reading JSON to array
         InputStream is = getResources().openRawResource(R.raw.items);
         Item[] items = new Gson().fromJson(new InputStreamReader(is), Item[].class);
 
-        this.listItemsNames = new String[items.length];
-        this.listImages = new Integer[items.length];
+        this.listItemsNames.clear();
+        this.listTags.clear();
+        this.listImages.clear();
 
         Context context = getApplicationContext();
         Resources resources = getResources();
-        for (int i = 0; i < items.length; i++){
-            this.listItemsNames[i] = items[i].getName();
-            this.listImages[i] = resources.getIdentifier(items[i].getTag(),
-                    "drawable", context.getPackageName());
+        for (Item item : items) {
+            this.listItemsNames.add(item.getName());
+            this.listTags.add(item.getTag());
+            this.listImages.add(resources.getIdentifier(item.getTag(),
+                    "drawable", context.getPackageName()));
         }
+
+        adapter.notifyDataSetChanged();
+    }
+
+
+    private void searchItem(String str) {
+        for (int i = 0; i < listItemsNames.size(); i++){
+            if(!listItemsNames.get(i).toLowerCase()
+                .contains(str.toLowerCase())){
+                listItemsNames.remove(i);
+                listTags.remove(i);
+                listImages.remove(i);
+            }
+        }
+
+        adapter.notifyDataSetChanged();
     }
 }

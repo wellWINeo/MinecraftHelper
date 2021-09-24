@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">MinecraftHelper</string>
     <string name="what_is_it">What is it?</string>
+    <string name="air">air</string>
+    <string name="search">Search</string>
     <string-array name="items_array">
         <item>A</item>
         <item>B</item>

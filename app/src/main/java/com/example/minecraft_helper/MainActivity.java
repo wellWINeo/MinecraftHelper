@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     Bundle bundle = intent.getExtras();
                     MaterialButton button = findViewById(this.pressedButton);
                     button.setIconResource(bundle.getInt("image", R.drawable.air));
-                    button.setStateDescription(bundle.getString("value"));
+                    button.setContentDescription(bundle.getString("value"));
                 }
             });
 
@@ -68,17 +68,19 @@ public class MainActivity extends AppCompatActivity {
         String comb = "";
         for(MaterialButton[] btnRow : grid){
             for(MaterialButton button : btnRow){
-                comb += button.getStateDescription() + "+";
+                comb += button.getContentDescription() + "+";
             }
         }
         comb = comb.substring(0, comb.length() - 1);
+
+        Toast.makeText(getApplicationContext(), comb, Toast.LENGTH_LONG).show();
 
         String item = this.receipts.get(comb);
 
         if (item == null)
             item = "Not Found";
 
-        Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
     }
 
     private void readRawJSON(){
