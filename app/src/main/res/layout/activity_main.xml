@@ -25,7 +25,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200" />
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_0_1"
@@ -33,7 +34,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200" />
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_0_2"
@@ -41,7 +43,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200" />
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
         </TableRow>
 
         <!-- row 1 -->
@@ -53,7 +56,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200" />
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_1_1"
@@ -61,7 +65,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200" />
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_1_2"
@@ -69,7 +74,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200" />
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
         </TableRow>
 
         <!-- row 2 -->
@@ -81,7 +87,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200" />
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_2_1"
@@ -89,7 +96,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200" />
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_2_2"
@@ -97,7 +105,8 @@
                 android:width="70dp"
                 android:height="70dp"
                 app:iconTint="@null"
-                android:backgroundTint="@color/teal_200"/>
+                android:backgroundTint="@color/teal_200"
+                app:icon="@drawable/air" />
         </TableRow>
     </TableLayout>
 

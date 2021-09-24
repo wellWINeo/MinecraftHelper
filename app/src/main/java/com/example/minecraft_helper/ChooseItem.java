@@ -47,9 +47,6 @@ public class ChooseItem extends AppCompatActivity {
 
         listView = findViewById(R.id.lvChoose);
         textView = findViewById(R.id.txtView);
-//        listItemsNames = getResources().getStringArray(R.array.minecraft_name);
-//        listItemsId = getResources().getStringArray(R.array.minecraft_id);
-//        listImages = getResources().getIntArray(R.array.minecraft_images);
 
         this.readItemsJSON();
 
@@ -64,6 +61,7 @@ public class ChooseItem extends AppCompatActivity {
             String value = listItemsNames[i];
             Intent intent = new Intent();
             intent.putExtra("value", value);
+            intent.putExtra("image", listImages[i]);
             setResult(RESULT_OK, intent);
             finish();
         });

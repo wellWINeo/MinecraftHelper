@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 if (result.getResultCode() == Activity.RESULT_OK && intent != null) {
                     Bundle bundle = intent.getExtras();
                     MaterialButton button = findViewById(this.pressedButton);
-                    button.setIconResource(R.drawable.new_dirt_earth);
+                    button.setIconResource(bundle.getInt("image", R.drawable.air));
                     button.setStateDescription(bundle.getString("value"));
                 }
             });

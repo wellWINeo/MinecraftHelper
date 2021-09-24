@@ -1,27 +1,4982 @@
 [
   {
-    "name": "Stone",
-    "tag": "stone"
-//    "tag": "earth_block"
+    "name": "Air",
+    "tag": "air"
+  },
+  {
+    "name": "Melon Side",
+    "tag": "melon_side"
+  },
+  {
+    "name": "Quartz Block Bottom",
+    "tag": "quartz_block_bottom"
+  },
+  {
+    "name": "Cracked Nether Bricks",
+    "tag": "cracked_nether_bricks"
+  },
+  {
+    "name": "Dead Tube Coral Block",
+    "tag": "dead_tube_coral_block"
+  },
+  {
+    "name": "Redstone Dust Dot",
+    "tag": "redstone_dust_dot"
+  },
+  {
+    "name": "Gray Stained Glass",
+    "tag": "gray_stained_glass"
+  },
+  {
+    "name": "Gray Terracotta",
+    "tag": "gray_terracotta"
+  },
+  {
+    "name": "Gray Stained Glass Pane Top",
+    "tag": "gray_stained_glass_pane_top"
+  },
+  {
+    "name": "Redstone Dust Line0",
+    "tag": "redstone_dust_line0"
+  },
+  {
+    "name": "Furnace Side",
+    "tag": "furnace_side"
+  },
+  {
+    "name": "Redstone Block",
+    "tag": "redstone_block"
+  },
+  {
+    "name": "Peony Bottom",
+    "tag": "peony_bottom"
+  },
+  {
+    "name": "Grass Block Top",
+    "tag": "grass_block_top"
+  },
+  {
+    "name": "Flowering Azalea Side",
+    "tag": "flowering_azalea_side"
+  },
+  {
+    "name": "Stripped Spruce Log",
+    "tag": "stripped_spruce_log"
+  },
+  {
+    "name": "Grindstone Round",
+    "tag": "grindstone_round"
+  },
+  {
+    "name": "Grindstone Pivot",
+    "tag": "grindstone_pivot"
+  },
+  {
+    "name": "New Dirt Earth",
+    "tag": "new_dirt_earth"
+  },
+  {
+    "name": "Quartz Pillar Top",
+    "tag": "quartz_pillar_top"
+  },
+  {
+    "name": "Furnace Front",
+    "tag": "furnace_front"
+  },
+  {
+    "name": "Frosted Ice 3",
+    "tag": "frosted_ice_3"
+  },
+  {
+    "name": "Earth Block",
+    "tag": "earth_block"
+  },
+  {
+    "name": "Item Frame",
+    "tag": "item_frame"
+  },
+  {
+    "name": "Soul Lantern",
+    "tag": "soul_lantern"
+  },
+  {
+    "name": "Honey Block Top",
+    "tag": "honey_block_top"
+  },
+  {
+    "name": "Flowering Azalea Leaves",
+    "tag": "flowering_azalea_leaves"
+  },
+  {
+    "name": "Grass Block Snow",
+    "tag": "grass_block_snow"
+  },
+  {
+    "name": "Furnace Top",
+    "tag": "furnace_top"
+  },
+  {
+    "name": "Purpur Pillar Top",
+    "tag": "purpur_pillar_top"
+  },
+  {
+    "name": "Light Gray Shulker Box",
+    "tag": "light_gray_shulker_box"
+  },
+  {
+    "name": "Fletching Table Top",
+    "tag": "fletching_table_top"
+  },
+  {
+    "name": "Respawn Anchor Side1",
+    "tag": "respawn_anchor_side1"
+  },
+  {
+    "name": "Oak Planks",
+    "tag": "oak_planks"
+  },
+  {
+    "name": "Respawn Anchor Side2",
+    "tag": "respawn_anchor_side2"
+  },
+  {
+    "name": "Grass Block Side Overlay",
+    "tag": "grass_block_side_overlay"
+  },
+  {
+    "name": "Furnace Front On",
+    "tag": "furnace_front_on"
+  },
+  {
+    "name": "Grass Block Side",
+    "tag": "grass_block_side"
+  },
+  {
+    "name": "Spruce Sapling",
+    "tag": "spruce_sapling"
+  },
+  {
+    "name": "Spruce Planks",
+    "tag": "spruce_planks"
+  },
+  {
+    "name": "Medium Amethyst Bud",
+    "tag": "medium_amethyst_bud"
+  },
+  {
+    "name": "Fletching Table Front",
+    "tag": "fletching_table_front"
+  },
+  {
+    "name": "Mycelium Top",
+    "tag": "mycelium_top"
+  },
+  {
+    "name": "Red Stained Glass Pane Top",
+    "tag": "red_stained_glass_pane_top"
+  },
+  {
+    "name": "Red Shulker Box",
+    "tag": "red_shulker_box"
+  },
+  {
+    "name": "Red Sandstone Top",
+    "tag": "red_sandstone_top"
+  },
+  {
+    "name": "Red Stained Glass",
+    "tag": "red_stained_glass"
+  },
+  {
+    "name": "Stripped Crimson Stem",
+    "tag": "stripped_crimson_stem"
+  },
+  {
+    "name": "Stripped Crimson Stem Top",
+    "tag": "stripped_crimson_stem_top"
+  },
+  {
+    "name": "Stripped Dark Oak Log",
+    "tag": "stripped_dark_oak_log"
+  },
+  {
+    "name": "Stripped Birch Log",
+    "tag": "stripped_birch_log"
+  },
+  {
+    "name": "Red Sand",
+    "tag": "red_sand"
+  },
+  {
+    "name": "Red Nether Bricks",
+    "tag": "red_nether_bricks"
+  },
+  {
+    "name": "Stripped Acacia Log",
+    "tag": "stripped_acacia_log"
+  },
+  {
+    "name": "Red Mushroom Block",
+    "tag": "red_mushroom_block"
+  },
+  {
+    "name": "Stripped Acacia Log Top",
+    "tag": "stripped_acacia_log_top"
+  },
+  {
+    "name": "Stripped Birch Log Top",
+    "tag": "stripped_birch_log_top"
+  },
+  {
+    "name": "Quartz Pillar",
+    "tag": "quartz_pillar"
+  },
+  {
+    "name": "Soul Fire 1",
+    "tag": "soul_fire_1"
+  },
+  {
+    "name": "Spruce Log Top",
+    "tag": "spruce_log_top"
+  },
+  {
+    "name": "Red Glazed Terracotta",
+    "tag": "red_glazed_terracotta"
+  },
+  {
+    "name": "Spruce Log",
+    "tag": "spruce_log"
+  },
+  {
+    "name": "Red Mushroom",
+    "tag": "red_mushroom"
+  },
+  {
+    "name": "Red Concrete Powder",
+    "tag": "red_concrete_powder"
+  },
+  {
+    "name": "Red Sandstone Bottom",
+    "tag": "red_sandstone_bottom"
+  },
+  {
+    "name": "Spruce Leaves",
+    "tag": "spruce_leaves"
+  },
+  {
+    "name": "Spruce Door Top",
+    "tag": "spruce_door_top"
+  },
+  {
+    "name": "Red Sandstone",
+    "tag": "red_sandstone"
+  },
+  {
+    "name": "Nether Wart Stage2",
+    "tag": "nether_wart_stage2"
+  },
+  {
+    "name": "Stonecutter Side",
+    "tag": "stonecutter_side"
+  },
+  {
+    "name": "Stonecutter Top",
+    "tag": "stonecutter_top"
+  },
+  {
+    "name": "Nether Wart Stage1",
+    "tag": "nether_wart_stage1"
+  },
+  {
+    "name": "Stripped Jungle Log Top",
+    "tag": "stripped_jungle_log_top"
+  },
+  {
+    "name": "Stripped Oak Log Top",
+    "tag": "stripped_oak_log_top"
+  },
+  {
+    "name": "Stripped Oak Log",
+    "tag": "stripped_oak_log"
+  },
+  {
+    "name": "Oak Log Top",
+    "tag": "oak_log_top"
+  },
+  {
+    "name": "Tall Grass Bottom",
+    "tag": "tall_grass_bottom"
+  },
+  {
+    "name": "Green Stained Glass",
+    "tag": "green_stained_glass"
+  },
+  {
+    "name": "Green Shulker Box",
+    "tag": "green_shulker_box"
+  },
+  {
+    "name": "Deepslate Redstone Ore",
+    "tag": "deepslate_redstone_ore"
+  },
+  {
+    "name": "Respawn Anchor Top",
+    "tag": "respawn_anchor_top"
+  },
+  {
+    "name": "Lime Glazed Terracotta",
+    "tag": "lime_glazed_terracotta"
+  },
+  {
+    "name": "Frosted Ice 1",
+    "tag": "frosted_ice_1"
+  },
+  {
+    "name": "Tall Grass Top",
+    "tag": "tall_grass_top"
+  },
+  {
+    "name": "Frosted Ice 2",
+    "tag": "frosted_ice_2"
+  },
+  {
+    "name": "Respawn Anchor Side3",
+    "tag": "respawn_anchor_side3"
+  },
+  {
+    "name": "Cracked Deepslate Bricks",
+    "tag": "cracked_deepslate_bricks"
+  },
+  {
+    "name": "Respawn Anchor Side4",
+    "tag": "respawn_anchor_side4"
+  },
+  {
+    "name": "Orange Wool",
+    "tag": "orange_wool"
+  },
+  {
+    "name": "Oxeye Daisy",
+    "tag": "oxeye_daisy"
+  },
+  {
+    "name": "Cracked Deepslate Tiles",
+    "tag": "cracked_deepslate_tiles"
+  },
+  {
+    "name": "Stripped Dark Oak Log Top",
+    "tag": "stripped_dark_oak_log_top"
+  },
+  {
+    "name": "Stripped Jungle Log",
+    "tag": "stripped_jungle_log"
+  },
+  {
+    "name": "Nether Wart Stage0",
+    "tag": "nether_wart_stage0"
+  },
+  {
+    "name": "Grass",
+    "tag": "grass"
+  },
+  {
+    "name": "Sweet Berry Bush Stage2",
+    "tag": "sweet_berry_bush_stage2"
+  },
+  {
+    "name": "Sweet Berry Bush Stage3",
+    "tag": "sweet_berry_bush_stage3"
+  },
+  {
+    "name": "Spruce Door Bottom",
+    "tag": "spruce_door_bottom"
+  },
+  {
+    "name": "Spore Blossom Base",
+    "tag": "spore_blossom_base"
+  },
+  {
+    "name": "Mushroom Stem",
+    "tag": "mushroom_stem"
+  },
+  {
+    "name": "Mycelium Side",
+    "tag": "mycelium_side"
+  },
+  {
+    "name": "Purpur Pillar",
+    "tag": "purpur_pillar"
+  },
+  {
+    "name": "Quartz Bricks",
+    "tag": "quartz_bricks"
+  },
+  {
+    "name": "Spore Blossom",
+    "tag": "spore_blossom"
+  },
+  {
+    "name": "Gray Shulker Box",
+    "tag": "gray_shulker_box"
+  },
+  {
+    "name": "Red Candle Lit",
+    "tag": "red_candle_lit"
+  },
+  {
+    "name": "Gray Glazed Terracotta",
+    "tag": "gray_glazed_terracotta"
+  },
+  {
+    "name": "Red Concrete",
+    "tag": "red_concrete"
+  },
+  {
+    "name": "Oak Door Top",
+    "tag": "oak_door_top"
+  },
+  {
+    "name": "Oak Log",
+    "tag": "oak_log"
+  },
+  {
+    "name": "Oak Leaves",
+    "tag": "oak_leaves"
+  },
+  {
+    "name": "Oxidized Copper",
+    "tag": "oxidized_copper"
+  },
+  {
+    "name": "Tall Seagrass Bottom",
+    "tag": "tall_seagrass_bottom"
+  },
+  {
+    "name": "Flower Pot",
+    "tag": "flower_pot"
+  },
+  {
+    "name": "Tall Seagrass Top",
+    "tag": "tall_seagrass_top"
+  },
+  {
+    "name": "Frosted Ice 0",
+    "tag": "frosted_ice_0"
+  },
+  {
+    "name": "Oxidized Cut Copper",
+    "tag": "oxidized_cut_copper"
+  },
+  {
+    "name": "Mushroom Block Inside",
+    "tag": "mushroom_block_inside"
+  },
+  {
+    "name": "Magma",
+    "tag": "magma"
+  },
+  {
+    "name": "Gray Concrete Powder",
+    "tag": "gray_concrete_powder"
+  },
+  {
+    "name": "Quartz Block Top",
+    "tag": "quartz_block_top"
+  },
+  {
+    "name": "Nether Sprouts",
+    "tag": "nether_sprouts"
+  },
+  {
+    "name": "Nether Wart Block",
+    "tag": "nether_wart_block"
+  },
+  {
+    "name": "Stonecutter Bottom",
+    "tag": "stonecutter_bottom"
+  },
+  {
+    "name": "Red Candle",
+    "tag": "red_candle"
+  },
+  {
+    "name": "Structure Block",
+    "tag": "structure_block"
+  },
+  {
+    "name": "Note Block",
+    "tag": "note_block"
+  },
+  {
+    "name": "Gilded Blackstone",
+    "tag": "gilded_blackstone"
+  },
+  {
+    "name": "Stripped Warped Stem",
+    "tag": "stripped_warped_stem"
+  },
+  {
+    "name": "Stripped Warped Stem Top",
+    "tag": "stripped_warped_stem_top"
+  },
+  {
+    "name": "Structure Block Corner",
+    "tag": "structure_block_corner"
+  },
+  {
+    "name": "Oak Door Bottom",
+    "tag": "oak_door_bottom"
+  },
+  {
+    "name": "Soul Fire 0",
+    "tag": "soul_fire_0"
+  },
+  {
+    "name": "Raw Iron Block",
+    "tag": "raw_iron_block"
+  },
+  {
+    "name": "Raw Gold Block",
+    "tag": "raw_gold_block"
   },
   {
     "name": "Granite",
     "tag": "granite"
-//    "tag": "earth_block"
   },
   {
-    "name": "Polished Granite",
-    "tag": "polished_granite"
-//    "tag": "earth_block"
+    "name": "Rail",
+    "tag": "rail"
+  },
+  {
+    "name": "Raw Copper Block",
+    "tag": "raw_copper_block"
+  },
+  {
+    "name": "Rail Corner",
+    "tag": "rail_corner"
+  },
+  {
+    "name": "Lightning Rod",
+    "tag": "lightning_rod"
+  },
+  {
+    "name": "Light Gray Wool",
+    "tag": "light_gray_wool"
+  },
+  {
+    "name": "Light Gray Terracotta",
+    "tag": "light_gray_terracotta"
+  },
+  {
+    "name": "Flowering Azalea Top",
+    "tag": "flowering_azalea_top"
+  },
+  {
+    "name": "Gold Ore",
+    "tag": "gold_ore"
+  },
+  {
+    "name": "Stone Bricks",
+    "tag": "stone_bricks"
+  },
+  {
+    "name": "Light Gray Stained Glass",
+    "tag": "light_gray_stained_glass"
+  },
+  {
+    "name": "Mossy Cobblestone",
+    "tag": "mossy_cobblestone"
+  },
+  {
+    "name": "Purpur Block",
+    "tag": "purpur_block"
+  },
+  {
+    "name": "Crafting Table Side",
+    "tag": "crafting_table_side"
+  },
+  {
+    "name": "Green Terracotta",
+    "tag": "green_terracotta"
+  },
+  {
+    "name": "Deepslate Emerald Ore",
+    "tag": "deepslate_emerald_ore"
+  },
+  {
+    "name": "Stone",
+    "tag": "stone"
+  },
+  {
+    "name": "Dead Tube Coral Fan",
+    "tag": "dead_tube_coral_fan"
+  },
+  {
+    "name": "Enchanting Table Top",
+    "tag": "enchanting_table_top"
+  },
+  {
+    "name": "Dried Kelp Top",
+    "tag": "dried_kelp_top"
+  },
+  {
+    "name": "Deepslate Gold Ore",
+    "tag": "deepslate_gold_ore"
+  },
+  {
+    "name": "Deepslate Copper Ore",
+    "tag": "deepslate_copper_ore"
+  },
+  {
+    "name": "Large Fern Top",
+    "tag": "large_fern_top"
+  },
+  {
+    "name": "Farmland",
+    "tag": "farmland"
+  },
+  {
+    "name": "Enchanting Table Side",
+    "tag": "enchanting_table_side"
+  },
+  {
+    "name": "End Portal Frame Eye",
+    "tag": "end_portal_frame_eye"
+  },
+  {
+    "name": "Emerald Block",
+    "tag": "emerald_block"
+  },
+  {
+    "name": "Dropper Front",
+    "tag": "dropper_front"
+  },
+  {
+    "name": "End Stone",
+    "tag": "end_stone"
+  },
+  {
+    "name": "End Stone Bricks",
+    "tag": "end_stone_bricks"
+  },
+  {
+    "name": "Green Stained Glass Pane Top",
+    "tag": "green_stained_glass_pane_top"
+  },
+  {
+    "name": "Enchanting Table Bottom",
+    "tag": "enchanting_table_bottom"
+  },
+  {
+    "name": "Glass",
+    "tag": "glass"
+  },
+  {
+    "name": "Quartz Block Side",
+    "tag": "quartz_block_side"
+  },
+  {
+    "name": "Netherrack",
+    "tag": "netherrack"
+  },
+  {
+    "name": "Gold Block",
+    "tag": "gold_block"
+  },
+  {
+    "name": "Crimson Nylium",
+    "tag": "crimson_nylium"
+  },
+  {
+    "name": "Crimson Roots Pot",
+    "tag": "crimson_roots_pot"
+  },
+  {
+    "name": "Crimson Stem",
+    "tag": "crimson_stem"
+  },
+  {
+    "name": "Crimson Planks",
+    "tag": "crimson_planks"
+  },
+  {
+    "name": "Crimson Stem Top",
+    "tag": "crimson_stem_top"
+  },
+  {
+    "name": "Lime Terracotta",
+    "tag": "lime_terracotta"
+  },
+  {
+    "name": "Deepslate Iron Ore",
+    "tag": "deepslate_iron_ore"
+  },
+  {
+    "name": "Destroy Stage 0",
+    "tag": "destroy_stage_0"
+  },
+  {
+    "name": "Jungle Log Top",
+    "tag": "jungle_log_top"
+  },
+  {
+    "name": "Destroy Stage 7",
+    "tag": "destroy_stage_7"
+  },
+  {
+    "name": "Jungle Log",
+    "tag": "jungle_log"
+  },
+  {
+    "name": "Destroy Stage 9",
+    "tag": "destroy_stage_9"
+  },
+  {
+    "name": "Spawner",
+    "tag": "spawner"
+  },
+  {
+    "name": "Deepslate Tiles",
+    "tag": "deepslate_tiles"
+  },
+  {
+    "name": "Detector Rail",
+    "tag": "detector_rail"
+  },
+  {
+    "name": "Destroy Stage 1",
+    "tag": "destroy_stage_1"
+  },
+  {
+    "name": "Diamond Block",
+    "tag": "diamond_block"
+  },
+  {
+    "name": "Diamond Ore",
+    "tag": "diamond_ore"
+  },
+  {
+    "name": "Destroy Stage 2",
+    "tag": "destroy_stage_2"
+  },
+  {
+    "name": "Dripstone Block",
+    "tag": "dripstone_block"
+  },
+  {
+    "name": "Cut Copper",
+    "tag": "cut_copper"
+  },
+  {
+    "name": "Cut Red Sandstone",
+    "tag": "cut_red_sandstone"
+  },
+  {
+    "name": "Dead Horn Coral",
+    "tag": "dead_horn_coral"
+  },
+  {
+    "name": "Dead Fire Coral Block",
+    "tag": "dead_fire_coral_block"
+  },
+  {
+    "name": "Dead Bubble Coral Fan",
+    "tag": "dead_bubble_coral_fan"
+  },
+  {
+    "name": "Dirt",
+    "tag": "dirt"
+  },
+  {
+    "name": "Cracked Polished Blackstone Bricks",
+    "tag": "cracked_polished_blackstone_bricks"
+  },
+  {
+    "name": "Crafting Table Front",
+    "tag": "crafting_table_front"
+  },
+  {
+    "name": "Crafting Table Top",
+    "tag": "crafting_table_top"
+  },
+  {
+    "name": "Lime Shulker Box",
+    "tag": "lime_shulker_box"
+  },
+  {
+    "name": "Dead Bubble Coral Block",
+    "tag": "dead_bubble_coral_block"
+  },
+  {
+    "name": "Glow Item Frame",
+    "tag": "glow_item_frame"
+  },
+  {
+    "name": "Lightning Rod On",
+    "tag": "lightning_rod_on"
+  },
+  {
+    "name": "Lilac Bottom",
+    "tag": "lilac_bottom"
+  },
+  {
+    "name": "Glass Pane Top",
+    "tag": "glass_pane_top"
+  },
+  {
+    "name": "Nether Portal",
+    "tag": "nether_portal"
+  },
+  {
+    "name": "Polished Basalt Top",
+    "tag": "polished_basalt_top"
+  },
+  {
+    "name": "Soul Soil",
+    "tag": "soul_soil"
+  },
+  {
+    "name": "Green Concrete",
+    "tag": "green_concrete"
+  },
+  {
+    "name": "Green Concrete Powder",
+    "tag": "green_concrete_powder"
+  },
+  {
+    "name": "Gravel",
+    "tag": "gravel"
+  },
+  {
+    "name": "Gray Candle",
+    "tag": "gray_candle"
+  },
+  {
+    "name": "Gray Wool",
+    "tag": "gray_wool"
+  },
+  {
+    "name": "Green Candle",
+    "tag": "green_candle"
+  },
+  {
+    "name": "Melon Stem",
+    "tag": "melon_stem"
+  },
+  {
+    "name": "White Candle",
+    "tag": "white_candle"
+  },
+  {
+    "name": "Melon Top",
+    "tag": "melon_top"
+  },
+  {
+    "name": "Ice",
+    "tag": "ice"
+  },
+  {
+    "name": "Exposed Copper",
+    "tag": "exposed_copper"
+  },
+  {
+    "name": "Hay Block Side",
+    "tag": "hay_block_side"
+  },
+  {
+    "name": "Jungle Planks",
+    "tag": "jungle_planks"
+  },
+  {
+    "name": "Lime Stained Glass",
+    "tag": "lime_stained_glass"
+  },
+  {
+    "name": "Horn Coral",
+    "tag": "horn_coral"
+  },
+  {
+    "name": "Iron Bars",
+    "tag": "iron_bars"
+  },
+  {
+    "name": "Iron Door Top",
+    "tag": "iron_door_top"
+  },
+  {
+    "name": "Hay Block Top",
+    "tag": "hay_block_top"
+  },
+  {
+    "name": "Honey Block Bottom",
+    "tag": "honey_block_bottom"
+  },
+  {
+    "name": "Honeycomb Block",
+    "tag": "honeycomb_block"
+  },
+  {
+    "name": "Pointed Dripstone Down Base",
+    "tag": "pointed_dripstone_down_base"
+  },
+  {
+    "name": "Jungle Sapling",
+    "tag": "jungle_sapling"
+  },
+  {
+    "name": "Hopper Inside",
+    "tag": "hopper_inside"
+  },
+  {
+    "name": "Hopper Outside",
+    "tag": "hopper_outside"
+  },
+  {
+    "name": "Smithing Table Bottom",
+    "tag": "smithing_table_bottom"
+  },
+  {
+    "name": "Pointed Dripstone Up Frustum",
+    "tag": "pointed_dripstone_up_frustum"
+  },
+  {
+    "name": "Iron Door Bottom",
+    "tag": "iron_door_bottom"
+  },
+  {
+    "name": "Iron Ore",
+    "tag": "iron_ore"
+  },
+  {
+    "name": "Jack O Lantern",
+    "tag": "jack_o_lantern"
+  },
+  {
+    "name": "Jigsaw Side",
+    "tag": "jigsaw_side"
+  },
+  {
+    "name": "Loom Top",
+    "tag": "loom_top"
+  },
+  {
+    "name": "Jungle Door Bottom",
+    "tag": "jungle_door_bottom"
+  },
+  {
+    "name": "Light Blue Shulker Box",
+    "tag": "light_blue_shulker_box"
+  },
+  {
+    "name": "Lava Flow",
+    "tag": "lava_flow"
+  },
+  {
+    "name": "Dark Prismarine",
+    "tag": "dark_prismarine"
+  },
+  {
+    "name": "Kelp",
+    "tag": "kelp"
+  },
+  {
+    "name": "Lantern",
+    "tag": "lantern"
+  },
+  {
+    "name": "Light Gray Concrete",
+    "tag": "light_gray_concrete"
+  },
+  {
+    "name": "Lapis Block",
+    "tag": "lapis_block"
+  },
+  {
+    "name": "Lily Of The Valley",
+    "tag": "lily_of_the_valley"
+  },
+  {
+    "name": "Lily Pad",
+    "tag": "lily_pad"
+  },
+  {
+    "name": "Light Blue Stained Glass Pane Top",
+    "tag": "light_blue_stained_glass_pane_top"
+  },
+  {
+    "name": "Light Blue Candle",
+    "tag": "light_blue_candle"
+  },
+  {
+    "name": "Light Blue Candle Lit",
+    "tag": "light_blue_candle_lit"
+  },
+  {
+    "name": "Light Blue Concrete",
+    "tag": "light_blue_concrete"
+  },
+  {
+    "name": "Light Blue Stained Glass",
+    "tag": "light_blue_stained_glass"
+  },
+  {
+    "name": "Loom Bottom",
+    "tag": "loom_bottom"
+  },
+  {
+    "name": "Stonecutter Saw",
+    "tag": "stonecutter_saw"
+  },
+  {
+    "name": "Light Gray Candle Lit",
+    "tag": "light_gray_candle_lit"
+  },
+  {
+    "name": "Orange Concrete Powder",
+    "tag": "orange_concrete_powder"
+  },
+  {
+    "name": "Lime Candle",
+    "tag": "lime_candle"
+  },
+  {
+    "name": "Lime Candle Lit",
+    "tag": "lime_candle_lit"
+  },
+  {
+    "name": "Lime Concrete",
+    "tag": "lime_concrete"
+  },
+  {
+    "name": "Lodestone Top",
+    "tag": "lodestone_top"
+  },
+  {
+    "name": "Loom Front",
+    "tag": "loom_front"
+  },
+  {
+    "name": "Dispenser Front Vertical",
+    "tag": "dispenser_front_vertical"
+  },
+  {
+    "name": "Light Gray Candle",
+    "tag": "light_gray_candle"
+  },
+  {
+    "name": "Magenta Candle",
+    "tag": "magenta_candle"
+  },
+  {
+    "name": "Magenta Concrete Powder",
+    "tag": "magenta_concrete_powder"
+  },
+  {
+    "name": "Magenta Terracotta",
+    "tag": "magenta_terracotta"
+  },
+  {
+    "name": "Obsidian",
+    "tag": "obsidian"
+  },
+  {
+    "name": "Orange Shulker Box",
+    "tag": "orange_shulker_box"
+  },
+  {
+    "name": "Pink Candle",
+    "tag": "pink_candle"
+  },
+  {
+    "name": "Orange Stained Glass Pane Top",
+    "tag": "orange_stained_glass_pane_top"
+  },
+  {
+    "name": "Destroy Stage 4",
+    "tag": "destroy_stage_4"
+  },
+  {
+    "name": "Orange Terracotta",
+    "tag": "orange_terracotta"
+  },
+  {
+    "name": "Dead Fire Coral",
+    "tag": "dead_fire_coral"
+  },
+  {
+    "name": "Orange Tulip",
+    "tag": "orange_tulip"
+  },
+  {
+    "name": "Cyan Candle",
+    "tag": "cyan_candle"
+  },
+  {
+    "name": "Cyan Glazed Terracotta",
+    "tag": "cyan_glazed_terracotta"
+  },
+  {
+    "name": "Cyan Stained Glass",
+    "tag": "cyan_stained_glass"
+  },
+  {
+    "name": "Dandelion",
+    "tag": "dandelion"
+  },
+  {
+    "name": "Dark Oak Door Bottom",
+    "tag": "dark_oak_door_bottom"
+  },
+  {
+    "name": "Dark Oak Log Top",
+    "tag": "dark_oak_log_top"
+  },
+  {
+    "name": "Dead Brain Coral",
+    "tag": "dead_brain_coral"
+  },
+  {
+    "name": "Light Blue Concrete Powder",
+    "tag": "light_blue_concrete_powder"
+  },
+  {
+    "name": "Orange Candle",
+    "tag": "orange_candle"
+  },
+  {
+    "name": "Orange Concrete",
+    "tag": "orange_concrete"
+  },
+  {
+    "name": "Polished Blackstone",
+    "tag": "polished_blackstone"
+  },
+  {
+    "name": "Armor Stand",
+    "tag": "armor_stand"
+  },
+  {
+    "name": "Axolotl Bucket",
+    "tag": "axolotl_bucket"
+  },
+  {
+    "name": "Bamboo",
+    "tag": "bamboo"
+  },
+  {
+    "name": "Barrier",
+    "tag": "barrier"
+  },
+  {
+    "name": "Book",
+    "tag": "book"
+  },
+  {
+    "name": "Fire Coral Fan",
+    "tag": "fire_coral_fan"
+  },
+  {
+    "name": "Respawn Anchor Top Off",
+    "tag": "respawn_anchor_top_off"
+  },
+  {
+    "name": "Sponge",
+    "tag": "sponge"
+  },
+  {
+    "name": "Mossy Stone Bricks",
+    "tag": "mossy_stone_bricks"
+  },
+  {
+    "name": "Fire Coral Block",
+    "tag": "fire_coral_block"
+  },
+  {
+    "name": "Spruce Trapdoor",
+    "tag": "spruce_trapdoor"
+  },
+  {
+    "name": "Debug",
+    "tag": "debug"
+  },
+  {
+    "name": "Debug2",
+    "tag": "debug2"
+  },
+  {
+    "name": "Deepslate Bricks",
+    "tag": "deepslate_bricks"
+  },
+  {
+    "name": "Deepslate Coal Ore",
+    "tag": "deepslate_coal_ore"
+  },
+  {
+    "name": "Deepslate Diamond Ore",
+    "tag": "deepslate_diamond_ore"
+  },
+  {
+    "name": "Fire 0",
+    "tag": "fire_0"
+  },
+  {
+    "name": "Deepslate",
+    "tag": "deepslate"
+  },
+  {
+    "name": "Dried Kelp Bottom",
+    "tag": "dried_kelp_bottom"
+  },
+  {
+    "name": "Dragon Egg",
+    "tag": "dragon_egg"
+  },
+  {
+    "name": "Farmland Moist",
+    "tag": "farmland_moist"
+  },
+  {
+    "name": "Dropper Front Vertical",
+    "tag": "dropper_front_vertical"
+  },
+  {
+    "name": "Emerald Ore",
+    "tag": "emerald_ore"
+  },
+  {
+    "name": "Dried Kelp Side",
+    "tag": "dried_kelp_side"
+  },
+  {
+    "name": "Nether Quartz Ore",
+    "tag": "nether_quartz_ore"
+  },
+  {
+    "name": "Crimson Door Top",
+    "tag": "crimson_door_top"
+  },
+  {
+    "name": "Crimson Fungus",
+    "tag": "crimson_fungus"
+  },
+  {
+    "name": "Lodestone Side",
+    "tag": "lodestone_side"
+  },
+  {
+    "name": "Crimson Nylium Side",
+    "tag": "crimson_nylium_side"
+  },
+  {
+    "name": "Crimson Roots",
+    "tag": "crimson_roots"
+  },
+  {
+    "name": "Crimson Trapdoor",
+    "tag": "crimson_trapdoor"
+  },
+  {
+    "name": "Lime Wool",
+    "tag": "lime_wool"
+  },
+  {
+    "name": "Stripped Spruce Log Top",
+    "tag": "stripped_spruce_log_top"
+  },
+  {
+    "name": "Deepslate Lapis Ore",
+    "tag": "deepslate_lapis_ore"
+  },
+  {
+    "name": "End Rod",
+    "tag": "end_rod"
+  },
+  {
+    "name": "Destroy Stage 8",
+    "tag": "destroy_stage_8"
+  },
+  {
+    "name": "Exposed Cut Copper",
+    "tag": "exposed_cut_copper"
   },
   {
     "name": "Diorite",
     "tag": "diorite"
-//    "tag": "earth_block"
+  },
+  {
+    "name": "Moss Block",
+    "tag": "moss_block"
+  },
+  {
+    "name": "Dirt Path Top",
+    "tag": "dirt_path_top"
+  },
+  {
+    "name": "Destroy Stage 6",
+    "tag": "destroy_stage_6"
+  },
+  {
+    "name": "Detector Rail On",
+    "tag": "detector_rail_on"
+  },
+  {
+    "name": "Deepslate Top",
+    "tag": "deepslate_top"
+  },
+  {
+    "name": "Dirt Path Side",
+    "tag": "dirt_path_side"
+  },
+  {
+    "name": "Destroy Stage 3",
+    "tag": "destroy_stage_3"
+  },
+  {
+    "name": "Destroy Stage 5",
+    "tag": "destroy_stage_5"
+  },
+  {
+    "name": "Crying Obsidian",
+    "tag": "crying_obsidian"
+  },
+  {
+    "name": "Dead Bush",
+    "tag": "dead_bush"
+  },
+  {
+    "name": "Dead Tube Coral",
+    "tag": "dead_tube_coral"
+  },
+  {
+    "name": "Packed Ice",
+    "tag": "packed_ice"
+  },
+  {
+    "name": "Dead Fire Coral Fan",
+    "tag": "dead_fire_coral_fan"
+  },
+  {
+    "name": "Cracked Stone Bricks",
+    "tag": "cracked_stone_bricks"
+  },
+  {
+    "name": "Glowstone",
+    "tag": "glowstone"
+  },
+  {
+    "name": "Large Fern Bottom",
+    "tag": "large_fern_bottom"
+  },
+  {
+    "name": "Crimson Door Bottom",
+    "tag": "crimson_door_bottom"
+  },
+  {
+    "name": "Dead Bubble Coral",
+    "tag": "dead_bubble_coral"
+  },
+  {
+    "name": "Glow Lichen",
+    "tag": "glow_lichen"
+  },
+  {
+    "name": "Soul Campfire Log Lit",
+    "tag": "soul_campfire_log_lit"
+  },
+  {
+    "name": "End Portal Frame Top",
+    "tag": "end_portal_frame_top"
+  },
+  {
+    "name": "Gray Candle Lit",
+    "tag": "gray_candle_lit"
+  },
+  {
+    "name": "Gray Concrete",
+    "tag": "gray_concrete"
+  },
+  {
+    "name": "Netherite Block",
+    "tag": "netherite_block"
+  },
+  {
+    "name": "Fletching Table Side",
+    "tag": "fletching_table_side"
+  },
+  {
+    "name": "Nether Bricks",
+    "tag": "nether_bricks"
+  },
+  {
+    "name": "Soul Torch",
+    "tag": "soul_torch"
+  },
+  {
+    "name": "Nether Gold Ore",
+    "tag": "nether_gold_ore"
+  },
+  {
+    "name": "Dead Horn Coral Fan",
+    "tag": "dead_horn_coral_fan"
+  },
+  {
+    "name": "Polished Basalt Side",
+    "tag": "polished_basalt_side"
+  },
+  {
+    "name": "Fern",
+    "tag": "fern"
+  },
+  {
+    "name": "Green Glazed Terracotta",
+    "tag": "green_glazed_terracotta"
+  },
+  {
+    "name": "Green Candle Lit",
+    "tag": "green_candle_lit"
+  },
+  {
+    "name": "Warped Wart Block",
+    "tag": "warped_wart_block"
+  },
+  {
+    "name": "Water Flow",
+    "tag": "water_flow"
+  },
+  {
+    "name": "Soul Sand",
+    "tag": "soul_sand"
+  },
+  {
+    "name": "Water Overlay",
+    "tag": "water_overlay"
+  },
+  {
+    "name": "Dispenser Front",
+    "tag": "dispenser_front"
+  },
+  {
+    "name": "Hopper Top",
+    "tag": "hopper_top"
+  },
+  {
+    "name": "Fire Coral",
+    "tag": "fire_coral"
+  },
+  {
+    "name": "Large Amethyst Bud",
+    "tag": "large_amethyst_bud"
+  },
+  {
+    "name": "Fire 1",
+    "tag": "fire_1"
+  },
+  {
+    "name": "Lapis Ore",
+    "tag": "lapis_ore"
+  },
+  {
+    "name": "Hanging Roots",
+    "tag": "hanging_roots"
+  },
+  {
+    "name": "Beef",
+    "tag": "beef"
+  },
+  {
+    "name": "Honey Block Side",
+    "tag": "honey_block_side"
+  },
+  {
+    "name": "Dead Horn Coral Block",
+    "tag": "dead_horn_coral_block"
+  },
+  {
+    "name": "Jungle Trapdoor",
+    "tag": "jungle_trapdoor"
+  },
+  {
+    "name": "Grindstone Side",
+    "tag": "grindstone_side"
+  },
+  {
+    "name": "Polished Deepslate",
+    "tag": "polished_deepslate"
+  },
+  {
+    "name": "Horn Coral Fan",
+    "tag": "horn_coral_fan"
+  },
+  {
+    "name": "Horn Coral Block",
+    "tag": "horn_coral_block"
+  },
+  {
+    "name": "Iron Block",
+    "tag": "iron_block"
+  },
+  {
+    "name": "Iron Trapdoor",
+    "tag": "iron_trapdoor"
+  },
+  {
+    "name": "Jigsaw Bottom",
+    "tag": "jigsaw_bottom"
+  },
+  {
+    "name": "Jigsaw Lock",
+    "tag": "jigsaw_lock"
+  },
+  {
+    "name": "Jigsaw Top",
+    "tag": "jigsaw_top"
+  },
+  {
+    "name": "Lectern Top",
+    "tag": "lectern_top"
+  },
+  {
+    "name": "Jukebox Side",
+    "tag": "jukebox_side"
+  },
+  {
+    "name": "Jukebox Top",
+    "tag": "jukebox_top"
+  },
+  {
+    "name": "Jungle Leaves",
+    "tag": "jungle_leaves"
+  },
+  {
+    "name": "Jungle Door Top",
+    "tag": "jungle_door_top"
+  },
+  {
+    "name": "Kelp Plant",
+    "tag": "kelp_plant"
+  },
+  {
+    "name": "Ladder",
+    "tag": "ladder"
+  },
+  {
+    "name": "Lever",
+    "tag": "lever"
+  },
+  {
+    "name": "Lime Concrete Powder",
+    "tag": "lime_concrete_powder"
+  },
+  {
+    "name": "Lava Still",
+    "tag": "lava_still"
+  },
+  {
+    "name": "Lectern Base",
+    "tag": "lectern_base"
+  },
+  {
+    "name": "Lectern Front",
+    "tag": "lectern_front"
+  },
+  {
+    "name": "Lectern Sides",
+    "tag": "lectern_sides"
+  },
+  {
+    "name": "Lilac Top",
+    "tag": "lilac_top"
+  },
+  {
+    "name": "Light Blue Terracotta",
+    "tag": "light_blue_terracotta"
+  },
+  {
+    "name": "Light Blue Wool",
+    "tag": "light_blue_wool"
   },
   {
     "name": "Polished Diorite",
     "tag": "polished_diorite"
-//    "tag": "earth_block"
+  },
+  {
+    "name": "Magenta Candle Lit",
+    "tag": "magenta_candle_lit"
+  },
+  {
+    "name": "Loom Side",
+    "tag": "loom_side"
+  },
+  {
+    "name": "Magenta Concrete",
+    "tag": "magenta_concrete"
+  },
+  {
+    "name": "Magenta Shulker Box",
+    "tag": "magenta_shulker_box"
+  },
+  {
+    "name": "Magenta Stained Glass",
+    "tag": "magenta_stained_glass"
+  },
+  {
+    "name": "Magenta Stained Glass Pane Top",
+    "tag": "magenta_stained_glass_pane_top"
+  },
+  {
+    "name": "Dark Oak Trapdoor",
+    "tag": "dark_oak_trapdoor"
+  },
+  {
+    "name": "Magenta Wool",
+    "tag": "magenta_wool"
+  },
+  {
+    "name": "Podzol Top",
+    "tag": "podzol_top"
+  },
+  {
+    "name": "Orange Glazed Terracotta",
+    "tag": "orange_glazed_terracotta"
+  },
+  {
+    "name": "Polished Blackstone Bricks",
+    "tag": "polished_blackstone_bricks"
+  },
+  {
+    "name": "Peony Top",
+    "tag": "peony_top"
+  },
+  {
+    "name": "Cut Sandstone",
+    "tag": "cut_sandstone"
+  },
+  {
+    "name": "Cyan Candle Lit",
+    "tag": "cyan_candle_lit"
+  },
+  {
+    "name": "Cyan Concrete",
+    "tag": "cyan_concrete"
+  },
+  {
+    "name": "Cyan Concrete Powder",
+    "tag": "cyan_concrete_powder"
+  },
+  {
+    "name": "Cyan Shulker Box",
+    "tag": "cyan_shulker_box"
+  },
+  {
+    "name": "Cyan Terracotta",
+    "tag": "cyan_terracotta"
+  },
+  {
+    "name": "Cyan Wool",
+    "tag": "cyan_wool"
+  },
+  {
+    "name": "Damaged Anvil Top",
+    "tag": "damaged_anvil_top"
+  },
+  {
+    "name": "Dark Oak Door Top",
+    "tag": "dark_oak_door_top"
+  },
+  {
+    "name": "Dark Oak Leaves",
+    "tag": "dark_oak_leaves"
+  },
+  {
+    "name": "Dark Oak Log",
+    "tag": "dark_oak_log"
+  },
+  {
+    "name": "Dark Oak Planks",
+    "tag": "dark_oak_planks"
+  },
+  {
+    "name": "Dark Oak Sapling",
+    "tag": "dark_oak_sapling"
+  },
+  {
+    "name": "Daylight Detector Side",
+    "tag": "daylight_detector_side"
+  },
+  {
+    "name": "Daylight Detector Top",
+    "tag": "daylight_detector_top"
+  },
+  {
+    "name": "End Portal Frame Side",
+    "tag": "end_portal_frame_side"
+  },
+  {
+    "name": "Dead Brain Coral Block",
+    "tag": "dead_brain_coral_block"
+  },
+  {
+    "name": "Light Blue Glazed Terracotta",
+    "tag": "light_blue_glazed_terracotta"
+  },
+  {
+    "name": "Orange Candle Lit",
+    "tag": "orange_candle_lit"
+  },
+  {
+    "name": "Green Wool",
+    "tag": "green_wool"
+  },
+  {
+    "name": "Orange Stained Glass",
+    "tag": "orange_stained_glass"
+  },
+  {
+    "name": "Acacia Boat",
+    "tag": "acacia_boat"
+  },
+  {
+    "name": "Acacia Door",
+    "tag": "acacia_door"
+  },
+  {
+    "name": "Acacia Sign",
+    "tag": "acacia_sign"
+  },
+  {
+    "name": "Amethyst Shard",
+    "tag": "amethyst_shard"
+  },
+  {
+    "name": "Apple",
+    "tag": "apple"
+  },
+  {
+    "name": "Arrow",
+    "tag": "arrow"
+  },
+  {
+    "name": "Baked Potato",
+    "tag": "baked_potato"
+  },
+  {
+    "name": "Beetroot",
+    "tag": "beetroot"
+  },
+  {
+    "name": "Bell",
+    "tag": "bell"
+  },
+  {
+    "name": "Bone",
+    "tag": "bone"
+  },
+  {
+    "name": "Bowl",
+    "tag": "bowl"
+  },
+  {
+    "name": "Bread",
+    "tag": "bread"
+  },
+  {
+    "name": "Bundle",
+    "tag": "bundle"
+  },
+  {
+    "name": "Cauldron",
+    "tag": "cauldron"
+  },
+  {
+    "name": "Chainmail Boots",
+    "tag": "chainmail_boots"
+  },
+  {
+    "name": "Chest Minecart",
+    "tag": "chest_minecart"
+  },
+  {
+    "name": "Clay Ball",
+    "tag": "clay_ball"
+  },
+  {
+    "name": "Cod",
+    "tag": "cod"
+  },
+  {
+    "name": "Beetroot Soup",
+    "tag": "beetroot_soup"
+  },
+  {
+    "name": "Birch Boat",
+    "tag": "birch_boat"
+  },
+  {
+    "name": "Birch Sign",
+    "tag": "birch_sign"
+  },
+  {
+    "name": "Blaze Rod",
+    "tag": "blaze_rod"
+  },
+  {
+    "name": "Bow Pulling 0",
+    "tag": "bow_pulling_0"
+  },
+  {
+    "name": "Brown Dye",
+    "tag": "brown_dye"
+  },
+  {
+    "name": "Campfire",
+    "tag": "campfire"
+  },
+  {
+    "name": "Carrot",
+    "tag": "carrot"
+  },
+  {
+    "name": "Carrot On A Stick",
+    "tag": "carrot_on_a_stick"
+  },
+  {
+    "name": "Chainmail Chestplate",
+    "tag": "chainmail_chestplate"
+  },
+  {
+    "name": "Chainmail Helmet",
+    "tag": "chainmail_helmet"
+  },
+  {
+    "name": "Clock 00",
+    "tag": "clock_00"
+  },
+  {
+    "name": "Clock 01",
+    "tag": "clock_01"
+  },
+  {
+    "name": "Clock 07",
+    "tag": "clock_07"
+  },
+  {
+    "name": "Clock 12",
+    "tag": "clock_12"
+  },
+  {
+    "name": "Clock 15",
+    "tag": "clock_15"
+  },
+  {
+    "name": "Clock 16",
+    "tag": "clock_16"
+  },
+  {
+    "name": "Clock 17",
+    "tag": "clock_17"
+  },
+  {
+    "name": "Clock 20",
+    "tag": "clock_20"
+  },
+  {
+    "name": "Clock 21",
+    "tag": "clock_21"
+  },
+  {
+    "name": "Clock 22",
+    "tag": "clock_22"
+  },
+  {
+    "name": "Clock 29",
+    "tag": "clock_29"
+  },
+  {
+    "name": "Clock 38",
+    "tag": "clock_38"
+  },
+  {
+    "name": "Clock 44",
+    "tag": "clock_44"
+  },
+  {
+    "name": "Clock 45",
+    "tag": "clock_45"
+  },
+  {
+    "name": "Clock 46",
+    "tag": "clock_46"
+  },
+  {
+    "name": "Clock 49",
+    "tag": "clock_49"
+  },
+  {
+    "name": "Clock 51",
+    "tag": "clock_51"
+  },
+  {
+    "name": "Clock 58",
+    "tag": "clock_58"
+  },
+  {
+    "name": "Clock 61",
+    "tag": "clock_61"
+  },
+  {
+    "name": "Coal",
+    "tag": "coal"
+  },
+  {
+    "name": "Command Block Minecart",
+    "tag": "command_block_minecart"
+  },
+  {
+    "name": "Compass 02",
+    "tag": "compass_02"
+  },
+  {
+    "name": "Compass 03",
+    "tag": "compass_03"
+  },
+  {
+    "name": "Compass 05",
+    "tag": "compass_05"
+  },
+  {
+    "name": "Compass 07",
+    "tag": "compass_07"
+  },
+  {
+    "name": "Compass 09",
+    "tag": "compass_09"
+  },
+  {
+    "name": "Compass 10",
+    "tag": "compass_10"
+  },
+  {
+    "name": "Compass 11",
+    "tag": "compass_11"
+  },
+  {
+    "name": "Compass 13",
+    "tag": "compass_13"
+  },
+  {
+    "name": "Compass 14",
+    "tag": "compass_14"
+  },
+  {
+    "name": "Compass 19",
+    "tag": "compass_19"
+  },
+  {
+    "name": "Compass 24",
+    "tag": "compass_24"
+  },
+  {
+    "name": "Compass 31",
+    "tag": "compass_31"
+  },
+  {
+    "name": "Cooked Rabbit",
+    "tag": "cooked_rabbit"
+  },
+  {
+    "name": "Copper Ingot",
+    "tag": "copper_ingot"
+  },
+  {
+    "name": "Crimson Sign",
+    "tag": "crimson_sign"
+  },
+  {
+    "name": "Crossbow Pulling 1",
+    "tag": "crossbow_pulling_1"
+  },
+  {
+    "name": "Diamond Horse Armor",
+    "tag": "diamond_horse_armor"
+  },
+  {
+    "name": "Diamond Shovel",
+    "tag": "diamond_shovel"
+  },
+  {
+    "name": "Diamond Sword",
+    "tag": "diamond_sword"
+  },
+  {
+    "name": "Dried Kelp",
+    "tag": "dried_kelp"
+  },
+  {
+    "name": "Empty Armor Slot Shield",
+    "tag": "empty_armor_slot_shield"
+  },
+  {
+    "name": "Firework Rocket",
+    "tag": "firework_rocket"
+  },
+  {
+    "name": "Fishing Rod",
+    "tag": "fishing_rod"
+  },
+  {
+    "name": "Fishing Rod Cast",
+    "tag": "fishing_rod_cast"
+  },
+  {
+    "name": "Flint And Steel",
+    "tag": "flint_and_steel"
+  },
+  {
+    "name": "Glow Berries",
+    "tag": "glow_berries"
+  },
+  {
+    "name": "Glow Ink Sac",
+    "tag": "glow_ink_sac"
+  },
+  {
+    "name": "Glowstone Dust",
+    "tag": "glowstone_dust"
+  },
+  {
+    "name": "Golden Chestplate",
+    "tag": "golden_chestplate"
+  },
+  {
+    "name": "Gray Dye",
+    "tag": "gray_dye"
+  },
+  {
+    "name": "Hopper Minecart",
+    "tag": "hopper_minecart"
+  },
+  {
+    "name": "Iron Chestplate",
+    "tag": "iron_chestplate"
+  },
+  {
+    "name": "Iron Helmet",
+    "tag": "iron_helmet"
+  },
+  {
+    "name": "Iron Hoe",
+    "tag": "iron_hoe"
+  },
+  {
+    "name": "Iron Leggings",
+    "tag": "iron_leggings"
+  },
+  {
+    "name": "Iron Sword",
+    "tag": "iron_sword"
+  },
+  {
+    "name": "Leather Chestplate",
+    "tag": "leather_chestplate"
+  },
+  {
+    "name": "Light 04",
+    "tag": "light_04"
+  },
+  {
+    "name": "Observer Top",
+    "tag": "observer_top"
+  },
+  {
+    "name": "Repeater",
+    "tag": "repeater"
+  },
+  {
+    "name": "Sugar Cane",
+    "tag": "sugar_cane"
+  },
+  {
+    "name": "Sunflower Front",
+    "tag": "sunflower_front"
+  },
+  {
+    "name": "Dead Brain Coral Fan",
+    "tag": "dead_brain_coral_fan"
+  },
+  {
+    "name": "Pink Candle Lit",
+    "tag": "pink_candle_lit"
+  },
+  {
+    "name": "Piston Bottom",
+    "tag": "piston_bottom"
+  },
+  {
+    "name": "Purple Wool",
+    "tag": "purple_wool"
+  },
+  {
+    "name": "Purple Concrete Powder",
+    "tag": "purple_concrete_powder"
+  },
+  {
+    "name": "Purple Concrete",
+    "tag": "purple_concrete"
+  },
+  {
+    "name": "Powder Snow",
+    "tag": "powder_snow"
+  },
+  {
+    "name": "Repeating Command Block Conditional",
+    "tag": "repeating_command_block_conditional"
+  },
+  {
+    "name": "Powered Rail On",
+    "tag": "powered_rail_on"
+  },
+  {
+    "name": "Scaffolding Top",
+    "tag": "scaffolding_top"
+  },
+  {
+    "name": "Target Top",
+    "tag": "target_top"
+  },
+  {
+    "name": "Purple Stained Glass Pane Top",
+    "tag": "purple_stained_glass_pane_top"
+  },
+  {
+    "name": "Rooted Dirt",
+    "tag": "rooted_dirt"
+  },
+  {
+    "name": "Sandstone Top",
+    "tag": "sandstone_top"
+  },
+  {
+    "name": "Respawn Anchor Side0",
+    "tag": "respawn_anchor_side0"
+  },
+  {
+    "name": "Sculk Sensor Bottom",
+    "tag": "sculk_sensor_bottom"
+  },
+  {
+    "name": "Sand",
+    "tag": "sand"
+  },
+  {
+    "name": "Sandstone Bottom",
+    "tag": "sandstone_bottom"
+  },
+  {
+    "name": "Scaffolding Bottom",
+    "tag": "scaffolding_bottom"
+  },
+  {
+    "name": "Scaffolding Side",
+    "tag": "scaffolding_side"
+  },
+  {
+    "name": "Tube Coral",
+    "tag": "tube_coral"
+  },
+  {
+    "name": "Sculk Sensor Tendril Inactive",
+    "tag": "sculk_sensor_tendril_inactive"
+  },
+  {
+    "name": "Shulker Box",
+    "tag": "shulker_box"
+  },
+  {
+    "name": "Soul Campfire Fire",
+    "tag": "soul_campfire_fire"
+  },
+  {
+    "name": "Tnt Side",
+    "tag": "tnt_side"
+  },
+  {
+    "name": "Smooth Stone Slab Side",
+    "tag": "smooth_stone_slab_side"
+  },
+  {
+    "name": "Tuff",
+    "tag": "tuff"
+  },
+  {
+    "name": "Tinted Glass",
+    "tag": "tinted_glass"
+  },
+  {
+    "name": "Tnt Bottom",
+    "tag": "tnt_bottom"
+  },
+  {
+    "name": "Target Side",
+    "tag": "target_side"
+  },
+  {
+    "name": "Torch",
+    "tag": "torch"
+  },
+  {
+    "name": "Warped Door Top",
+    "tag": "warped_door_top"
+  },
+  {
+    "name": "Twisting Vines",
+    "tag": "twisting_vines"
+  },
+  {
+    "name": "Twisting Vines Plant",
+    "tag": "twisting_vines_plant"
+  },
+  {
+    "name": "Warped Nylium Side",
+    "tag": "warped_nylium_side"
+  },
+  {
+    "name": "Wheat Stage5",
+    "tag": "wheat_stage5"
+  },
+  {
+    "name": "White Concrete Powder",
+    "tag": "white_concrete_powder"
+  },
+  {
+    "name": "Wet Sponge",
+    "tag": "wet_sponge"
+  },
+  {
+    "name": "Wheat Stage0",
+    "tag": "wheat_stage0"
+  },
+  {
+    "name": "Weeping Vines Plant",
+    "tag": "weeping_vines_plant"
+  },
+  {
+    "name": "White Concrete",
+    "tag": "white_concrete"
+  },
+  {
+    "name": "Wheat Stage7",
+    "tag": "wheat_stage7"
+  },
+  {
+    "name": "Yellow Candle Lit",
+    "tag": "yellow_candle_lit"
+  },
+  {
+    "name": "Yellow Wool",
+    "tag": "yellow_wool"
+  },
+  {
+    "name": "Yellow Stained Glass",
+    "tag": "yellow_stained_glass"
+  },
+  {
+    "name": "Acacia Leaves",
+    "tag": "acacia_leaves"
+  },
+  {
+    "name": "Acacia Log Top",
+    "tag": "acacia_log_top"
+  },
+  {
+    "name": "Allium",
+    "tag": "allium"
+  },
+  {
+    "name": "Anvil Top",
+    "tag": "anvil_top"
+  },
+  {
+    "name": "Attached Pumpkin Stem",
+    "tag": "attached_pumpkin_stem"
+  },
+  {
+    "name": "Azalea Plant",
+    "tag": "azalea_plant"
+  },
+  {
+    "name": "Bamboo Small Leaves",
+    "tag": "bamboo_small_leaves"
+  },
+  {
+    "name": "Barrel Top Open",
+    "tag": "barrel_top_open"
+  },
+  {
+    "name": "Basalt Top",
+    "tag": "basalt_top"
+  },
+  {
+    "name": "Bedrock",
+    "tag": "bedrock"
+  },
+  {
+    "name": "Beehive Front",
+    "tag": "beehive_front"
+  },
+  {
+    "name": "Bee Nest Front Honey",
+    "tag": "bee_nest_front_honey"
+  },
+  {
+    "name": "Beetroots Stage1",
+    "tag": "beetroots_stage1"
+  },
+  {
+    "name": "Bell Side",
+    "tag": "bell_side"
+  },
+  {
+    "name": "Big Dripleaf Tip",
+    "tag": "big_dripleaf_tip"
+  },
+  {
+    "name": "Birch Leaves",
+    "tag": "birch_leaves"
+  },
+  {
+    "name": "Birch Planks",
+    "tag": "birch_planks"
+  },
+  {
+    "name": "Black Concrete Powder",
+    "tag": "black_concrete_powder"
+  },
+  {
+    "name": "Black Wool",
+    "tag": "black_wool"
+  },
+  {
+    "name": "Blast Furnace Front On",
+    "tag": "blast_furnace_front_on"
+  },
+  {
+    "name": "Blue Candle",
+    "tag": "blue_candle"
+  },
+  {
+    "name": "Blue Concrete Powder",
+    "tag": "blue_concrete_powder"
+  },
+  {
+    "name": "Brewing Stand",
+    "tag": "brewing_stand"
+  },
+  {
+    "name": "Brown Mushroom Block",
+    "tag": "brown_mushroom_block"
+  },
+  {
+    "name": "Cactus Bottom",
+    "tag": "cactus_bottom"
+  },
+  {
+    "name": "Cake Bottom",
+    "tag": "cake_bottom"
+  },
+  {
+    "name": "Cake Side",
+    "tag": "cake_side"
+  },
+  {
+    "name": "Campfire Fire",
+    "tag": "campfire_fire"
+  },
+  {
+    "name": "Candle Lit",
+    "tag": "candle_lit"
+  },
+  {
+    "name": "Carrots Stage2",
+    "tag": "carrots_stage2"
+  },
+  {
+    "name": "Carrots Stage3",
+    "tag": "carrots_stage3"
+  },
+  {
+    "name": "Cartography Table Side1",
+    "tag": "cartography_table_side1"
+  },
+  {
+    "name": "Cave Vines Plant",
+    "tag": "cave_vines_plant"
+  },
+  {
+    "name": "Chain Command Block Back",
+    "tag": "chain_command_block_back"
+  },
+  {
+    "name": "Chiseled Red Sandstone",
+    "tag": "chiseled_red_sandstone"
+  },
+  {
+    "name": "Chiseled Sandstone",
+    "tag": "chiseled_sandstone"
+  },
+  {
+    "name": "Chorus Flower Dead",
+    "tag": "chorus_flower_dead"
+  },
+  {
+    "name": "Chorus Plant",
+    "tag": "chorus_plant"
+  },
+  {
+    "name": "Clay",
+    "tag": "clay"
+  },
+  {
+    "name": "Coal Block",
+    "tag": "coal_block"
+  },
+  {
+    "name": "Coal Ore",
+    "tag": "coal_ore"
+  },
+  {
+    "name": "Cocoa Stage0",
+    "tag": "cocoa_stage0"
+  },
+  {
+    "name": "Command Block Back",
+    "tag": "command_block_back"
+  },
+  {
+    "name": "Command Block Front",
+    "tag": "command_block_front"
+  },
+  {
+    "name": "Cornflower",
+    "tag": "cornflower"
+  },
+  {
+    "name": "Leather Horse Armor",
+    "tag": "leather_horse_armor"
+  },
+  {
+    "name": "Leather Leggings Overlay",
+    "tag": "leather_leggings_overlay"
+  },
+  {
+    "name": "Light 06",
+    "tag": "light_06"
+  },
+  {
+    "name": "Light 08",
+    "tag": "light_08"
+  },
+  {
+    "name": "Clock 23",
+    "tag": "clock_23"
+  },
+  {
+    "name": "Clock 24",
+    "tag": "clock_24"
+  },
+  {
+    "name": "Clock 25",
+    "tag": "clock_25"
+  },
+  {
+    "name": "Clock 28",
+    "tag": "clock_28"
+  },
+  {
+    "name": "Clock 32",
+    "tag": "clock_32"
+  },
+  {
+    "name": "Clock 34",
+    "tag": "clock_34"
+  },
+  {
+    "name": "Clock 47",
+    "tag": "clock_47"
+  },
+  {
+    "name": "Clock 50",
+    "tag": "clock_50"
+  },
+  {
+    "name": "Clock 60",
+    "tag": "clock_60"
+  },
+  {
+    "name": "Clock 62",
+    "tag": "clock_62"
+  },
+  {
+    "name": "Clock 63",
+    "tag": "clock_63"
+  },
+  {
+    "name": "Cod Bucket",
+    "tag": "cod_bucket"
+  },
+  {
+    "name": "Compass 01",
+    "tag": "compass_01"
+  },
+  {
+    "name": "Compass 12",
+    "tag": "compass_12"
+  },
+  {
+    "name": "Cooked Chicken",
+    "tag": "cooked_chicken"
+  },
+  {
+    "name": "Cooked Cod",
+    "tag": "cooked_cod"
+  },
+  {
+    "name": "Cooked Salmon",
+    "tag": "cooked_salmon"
+  },
+  {
+    "name": "Crimson Door",
+    "tag": "crimson_door"
+  },
+  {
+    "name": "Crossbow Arrow",
+    "tag": "crossbow_arrow"
+  },
+  {
+    "name": "Dark Oak Boat",
+    "tag": "dark_oak_boat"
+  },
+  {
+    "name": "Diamond",
+    "tag": "diamond"
+  },
+  {
+    "name": "Diamond Axe",
+    "tag": "diamond_axe"
+  },
+  {
+    "name": "Diamond Helmet",
+    "tag": "diamond_helmet"
+  },
+  {
+    "name": "Elytra",
+    "tag": "elytra"
+  },
+  {
+    "name": "Empty Armor Slot Leggings",
+    "tag": "empty_armor_slot_leggings"
+  },
+  {
+    "name": "Ender Eye",
+    "tag": "ender_eye"
+  },
+  {
+    "name": "Filled Map Markings",
+    "tag": "filled_map_markings"
+  },
+  {
+    "name": "Furnace Minecart",
+    "tag": "furnace_minecart"
+  },
+  {
+    "name": "Golden Axe",
+    "tag": "golden_axe"
+  },
+  {
+    "name": "Golden Hoe",
+    "tag": "golden_hoe"
+  },
+  {
+    "name": "Golden Leggings",
+    "tag": "golden_leggings"
+  },
+  {
+    "name": "Golden Shovel",
+    "tag": "golden_shovel"
+  },
+  {
+    "name": "Golden Sword",
+    "tag": "golden_sword"
+  },
+  {
+    "name": "Green Dye",
+    "tag": "green_dye"
+  },
+  {
+    "name": "Gunpowder",
+    "tag": "gunpowder"
+  },
+  {
+    "name": "Hopper",
+    "tag": "hopper"
+  },
+  {
+    "name": "Iron Horse Armor",
+    "tag": "iron_horse_armor"
+  },
+  {
+    "name": "Iron Nugget",
+    "tag": "iron_nugget"
+  },
+  {
+    "name": "Iron Shovel",
+    "tag": "iron_shovel"
+  },
+  {
+    "name": "Jungle Door",
+    "tag": "jungle_door"
+  },
+  {
+    "name": "Leather Chestplate Overlay",
+    "tag": "leather_chestplate_overlay"
+  },
+  {
+    "name": "Leather Helmet",
+    "tag": "leather_helmet"
+  },
+  {
+    "name": "Leather Leggings",
+    "tag": "leather_leggings"
+  },
+  {
+    "name": "Light 00",
+    "tag": "light_00"
+  },
+  {
+    "name": "Light 09",
+    "tag": "light_09"
+  },
+  {
+    "name": "Light 14",
+    "tag": "light_14"
+  },
+  {
+    "name": "Light Gray Dye",
+    "tag": "light_gray_dye"
+  },
+  {
+    "name": "Lingering Potion",
+    "tag": "lingering_potion"
+  },
+  {
+    "name": "Magma Cream",
+    "tag": "magma_cream"
+  },
+  {
+    "name": "Music Disc Blocks",
+    "tag": "music_disc_blocks"
+  },
+  {
+    "name": "Music Disc Cat",
+    "tag": "music_disc_cat"
+  },
+  {
+    "name": "Music Disc Far",
+    "tag": "music_disc_far"
+  },
+  {
+    "name": "Music Disc Pigstep",
+    "tag": "music_disc_pigstep"
+  },
+  {
+    "name": "Music Disc Ward",
+    "tag": "music_disc_ward"
+  },
+  {
+    "name": "Netherite Ingot",
+    "tag": "netherite_ingot"
+  },
+  {
+    "name": "Netherite Sword",
+    "tag": "netherite_sword"
+  },
+  {
+    "name": "Nether Star",
+    "tag": "nether_star"
+  },
+  {
+    "name": "Light Gray Stained Glass Pane Top",
+    "tag": "light_gray_stained_glass_pane_top"
+  },
+  {
+    "name": "Observer Side",
+    "tag": "observer_side"
+  },
+  {
+    "name": "Redstone Dust Line1",
+    "tag": "redstone_dust_line1"
+  },
+  {
+    "name": "Redstone Dust Overlay",
+    "tag": "redstone_dust_overlay"
+  },
+  {
+    "name": "Redstone Torch Off",
+    "tag": "redstone_torch_off"
+  },
+  {
+    "name": "Red Wool",
+    "tag": "red_wool"
+  },
+  {
+    "name": "Structure Block Load",
+    "tag": "structure_block_load"
+  },
+  {
+    "name": "Sunflower Bottom",
+    "tag": "sunflower_bottom"
+  },
+  {
+    "name": "Pink Glazed Terracotta",
+    "tag": "pink_glazed_terracotta"
+  },
+  {
+    "name": "Pink Stained Glass Pane Top",
+    "tag": "pink_stained_glass_pane_top"
+  },
+  {
+    "name": "Pink Terracotta",
+    "tag": "pink_terracotta"
+  },
+  {
+    "name": "Pink Wool",
+    "tag": "pink_wool"
+  },
+  {
+    "name": "Piston Side",
+    "tag": "piston_side"
+  },
+  {
+    "name": "Prismarine",
+    "tag": "prismarine"
+  },
+  {
+    "name": "Pointed Dripstone Down Tip Merge",
+    "tag": "pointed_dripstone_down_tip_merge"
+  },
+  {
+    "name": "Pointed Dripstone Up Tip Merge",
+    "tag": "pointed_dripstone_up_tip_merge"
+  },
+  {
+    "name": "Pointed Dripstone Up Tip",
+    "tag": "pointed_dripstone_up_tip"
+  },
+  {
+    "name": "Potted Azalea Bush Side",
+    "tag": "potted_azalea_bush_side"
+  },
+  {
+    "name": "Powered Rail",
+    "tag": "powered_rail"
+  },
+  {
+    "name": "Pumpkin Side",
+    "tag": "pumpkin_side"
+  },
+  {
+    "name": "Purple Candle",
+    "tag": "purple_candle"
+  },
+  {
+    "name": "Small Amethyst Bud",
+    "tag": "small_amethyst_bud"
+  },
+  {
+    "name": "Sandstone",
+    "tag": "sandstone"
+  },
+  {
+    "name": "Smoker Top",
+    "tag": "smoker_top"
+  },
+  {
+    "name": "Small Dripleaf Stem Bottom",
+    "tag": "small_dripleaf_stem_bottom"
+  },
+  {
+    "name": "Slime Block",
+    "tag": "slime_block"
+  },
+  {
+    "name": "Snow",
+    "tag": "snow"
+  },
+  {
+    "name": "Smoker Front On",
+    "tag": "smoker_front_on"
+  },
+  {
+    "name": "Smoker Side",
+    "tag": "smoker_side"
+  },
+  {
+    "name": "Smithing Table Side",
+    "tag": "smithing_table_side"
+  },
+  {
+    "name": "Tnt Top",
+    "tag": "tnt_top"
+  },
+  {
+    "name": "Warped Stem Top",
+    "tag": "warped_stem_top"
+  },
+  {
+    "name": "Terracotta",
+    "tag": "terracotta"
+  },
+  {
+    "name": "Warped Stem",
+    "tag": "warped_stem"
+  },
+  {
+    "name": "Warped Door Bottom",
+    "tag": "warped_door_bottom"
+  },
+  {
+    "name": "Warped Nylium",
+    "tag": "warped_nylium"
+  },
+  {
+    "name": "Weathered Cut Copper",
+    "tag": "weathered_cut_copper"
+  },
+  {
+    "name": "White Terracotta",
+    "tag": "white_terracotta"
+  },
+  {
+    "name": "Yellow Concrete",
+    "tag": "yellow_concrete"
+  },
+  {
+    "name": "Yellow Concrete Powder",
+    "tag": "yellow_concrete_powder"
+  },
+  {
+    "name": "White Stained Glass",
+    "tag": "white_stained_glass"
+  },
+  {
+    "name": "White Glazed Terracotta",
+    "tag": "white_glazed_terracotta"
+  },
+  {
+    "name": "White Stained Glass Pane Top",
+    "tag": "white_stained_glass_pane_top"
+  },
+  {
+    "name": "White Wool",
+    "tag": "white_wool"
+  },
+  {
+    "name": "Yellow Shulker Box",
+    "tag": "yellow_shulker_box"
+  },
+  {
+    "name": "Acacia Door Bottom",
+    "tag": "acacia_door_bottom"
+  },
+  {
+    "name": "Acacia Log",
+    "tag": "acacia_log"
+  },
+  {
+    "name": "Activator Rail",
+    "tag": "activator_rail"
+  },
+  {
+    "name": "Activator Rail On",
+    "tag": "activator_rail_on"
+  },
+  {
+    "name": "Azalea Leaves",
+    "tag": "azalea_leaves"
+  },
+  {
+    "name": "Azure Bluet",
+    "tag": "azure_bluet"
+  },
+  {
+    "name": "Barrel Side",
+    "tag": "barrel_side"
+  },
+  {
+    "name": "Beacon",
+    "tag": "beacon"
+  },
+  {
+    "name": "Bee Nest Bottom",
+    "tag": "bee_nest_bottom"
+  },
+  {
+    "name": "Bee Nest Side",
+    "tag": "bee_nest_side"
+  },
+  {
+    "name": "Bee Nest Top",
+    "tag": "bee_nest_top"
+  },
+  {
+    "name": "Beetroots Stage3",
+    "tag": "beetroots_stage3"
+  },
+  {
+    "name": "Birch Door Top",
+    "tag": "birch_door_top"
+  },
+  {
+    "name": "Birch Trapdoor",
+    "tag": "birch_trapdoor"
+  },
+  {
+    "name": "Black Candle Lit",
+    "tag": "black_candle_lit"
+  },
+  {
+    "name": "Black Concrete",
+    "tag": "black_concrete"
+  },
+  {
+    "name": "Blackstone",
+    "tag": "blackstone"
+  },
+  {
+    "name": "Blackstone Top",
+    "tag": "blackstone_top"
+  },
+  {
+    "name": "Blue Candle Lit",
+    "tag": "blue_candle_lit"
+  },
+  {
+    "name": "Blue Concrete",
+    "tag": "blue_concrete"
+  },
+  {
+    "name": "Blue Glazed Terracotta",
+    "tag": "blue_glazed_terracotta"
+  },
+  {
+    "name": "Blue Shulker Box",
+    "tag": "blue_shulker_box"
+  },
+  {
+    "name": "Blue Wool",
+    "tag": "blue_wool"
+  },
+  {
+    "name": "Brain Coral",
+    "tag": "brain_coral"
+  },
+  {
+    "name": "Brain Coral Block",
+    "tag": "brain_coral_block"
+  },
+  {
+    "name": "Brain Coral Fan",
+    "tag": "brain_coral_fan"
+  },
+  {
+    "name": "Brown Candle Lit",
+    "tag": "brown_candle_lit"
+  },
+  {
+    "name": "Brown Concrete",
+    "tag": "brown_concrete"
+  },
+  {
+    "name": "Brown Mushroom",
+    "tag": "brown_mushroom"
+  },
+  {
+    "name": "Bubble Coral",
+    "tag": "bubble_coral"
+  },
+  {
+    "name": "Bubble Coral Block",
+    "tag": "bubble_coral_block"
+  },
+  {
+    "name": "Bubble Coral Fan",
+    "tag": "bubble_coral_fan"
+  },
+  {
+    "name": "Budding Amethyst",
+    "tag": "budding_amethyst"
+  },
+  {
+    "name": "Cake Top",
+    "tag": "cake_top"
+  },
+  {
+    "name": "Calcite",
+    "tag": "calcite"
+  },
+  {
+    "name": "Campfire Log",
+    "tag": "campfire_log"
+  },
+  {
+    "name": "Candle",
+    "tag": "candle"
+  },
+  {
+    "name": "Cartography Table Side2",
+    "tag": "cartography_table_side2"
+  },
+  {
+    "name": "Cauldron Top",
+    "tag": "cauldron_top"
+  },
+  {
+    "name": "Chain Command Block Side",
+    "tag": "chain_command_block_side"
+  },
+  {
+    "name": "Chiseled Quartz Block",
+    "tag": "chiseled_quartz_block"
+  },
+  {
+    "name": "Chiseled Stone Bricks",
+    "tag": "chiseled_stone_bricks"
+  },
+  {
+    "name": "Cobbled Deepslate",
+    "tag": "cobbled_deepslate"
+  },
+  {
+    "name": "Command Block Side",
+    "tag": "command_block_side"
+  },
+  {
+    "name": "Conduit",
+    "tag": "conduit"
+  },
+  {
+    "name": "Copper Ore",
+    "tag": "copper_ore"
+  },
+  {
+    "name": "Oak Door",
+    "tag": "oak_door"
+  },
+  {
+    "name": "Phantom Membrane",
+    "tag": "phantom_membrane"
+  },
+  {
+    "name": "Pink Dye",
+    "tag": "pink_dye"
+  },
+  {
+    "name": "Popped Chorus Fruit",
+    "tag": "popped_chorus_fruit"
+  },
+  {
+    "name": "Powder Snow Bucket",
+    "tag": "powder_snow_bucket"
+  },
+  {
+    "name": "Purple Dye",
+    "tag": "purple_dye"
+  },
+  {
+    "name": "Quartz",
+    "tag": "quartz"
+  },
+  {
+    "name": "Rabbit",
+    "tag": "rabbit"
+  },
+  {
+    "name": "Rabbit Foot",
+    "tag": "rabbit_foot"
+  },
+  {
+    "name": "Rotten Flesh",
+    "tag": "rotten_flesh"
+  },
+  {
+    "name": "Salmon",
+    "tag": "salmon"
+  },
+  {
+    "name": "Scute",
+    "tag": "scute"
+  },
+  {
+    "name": "Beetroot Seeds",
+    "tag": "beetroot_seeds"
+  },
+  {
+    "name": "Birch Door",
+    "tag": "birch_door"
+  },
+  {
+    "name": "Black Dye",
+    "tag": "black_dye"
+  },
+  {
+    "name": "Blaze Powder",
+    "tag": "blaze_powder"
+  },
+  {
+    "name": "Blue Dye",
+    "tag": "blue_dye"
+  },
+  {
+    "name": "Bow",
+    "tag": "bow"
+  },
+  {
+    "name": "Bow Pulling 2",
+    "tag": "bow_pulling_2"
+  },
+  {
+    "name": "Bucket",
+    "tag": "bucket"
+  },
+  {
+    "name": "Bundle Filled",
+    "tag": "bundle_filled"
+  },
+  {
+    "name": "Cake",
+    "tag": "cake"
+  },
+  {
+    "name": "Chainmail Leggings",
+    "tag": "chainmail_leggings"
+  },
+  {
+    "name": "Charcoal",
+    "tag": "charcoal"
+  },
+  {
+    "name": "Chorus Fruit",
+    "tag": "chorus_fruit"
+  },
+  {
+    "name": "Clock 02",
+    "tag": "clock_02"
+  },
+  {
+    "name": "Clock 03",
+    "tag": "clock_03"
+  },
+  {
+    "name": "Clock 04",
+    "tag": "clock_04"
+  },
+  {
+    "name": "Clock 08",
+    "tag": "clock_08"
+  },
+  {
+    "name": "Clock 09",
+    "tag": "clock_09"
+  },
+  {
+    "name": "Clock 10",
+    "tag": "clock_10"
+  },
+  {
+    "name": "Clock 11",
+    "tag": "clock_11"
+  },
+  {
+    "name": "Clock 13",
+    "tag": "clock_13"
+  },
+  {
+    "name": "Clock 18",
+    "tag": "clock_18"
+  },
+  {
+    "name": "Clock 19",
+    "tag": "clock_19"
+  },
+  {
+    "name": "Clock 36",
+    "tag": "clock_36"
+  },
+  {
+    "name": "Clock 37",
+    "tag": "clock_37"
+  },
+  {
+    "name": "Clock 39",
+    "tag": "clock_39"
+  },
+  {
+    "name": "Clock 40",
+    "tag": "clock_40"
+  },
+  {
+    "name": "Clock 41",
+    "tag": "clock_41"
+  },
+  {
+    "name": "Clock 42",
+    "tag": "clock_42"
+  },
+  {
+    "name": "Clock 53",
+    "tag": "clock_53"
+  },
+  {
+    "name": "Clock 54",
+    "tag": "clock_54"
+  },
+  {
+    "name": "Clock 55",
+    "tag": "clock_55"
+  },
+  {
+    "name": "Clock 57",
+    "tag": "clock_57"
+  },
+  {
+    "name": "Compass 08",
+    "tag": "compass_08"
+  },
+  {
+    "name": "Compass 16",
+    "tag": "compass_16"
+  },
+  {
+    "name": "Compass 20",
+    "tag": "compass_20"
+  },
+  {
+    "name": "Compass 25",
+    "tag": "compass_25"
+  },
+  {
+    "name": "Compass 26",
+    "tag": "compass_26"
+  },
+  {
+    "name": "Compass 29",
+    "tag": "compass_29"
+  },
+  {
+    "name": "Cooked Mutton",
+    "tag": "cooked_mutton"
+  },
+  {
+    "name": "Cooked Porkchop",
+    "tag": "cooked_porkchop"
+  },
+  {
+    "name": "Lead",
+    "tag": "lead"
+  },
+  {
+    "name": "Oak Trapdoor",
+    "tag": "oak_trapdoor"
+  },
+  {
+    "name": "Observer Back",
+    "tag": "observer_back"
+  },
+  {
+    "name": "Observer Back On",
+    "tag": "observer_back_on"
+  },
+  {
+    "name": "Observer Front",
+    "tag": "observer_front"
+  },
+  {
+    "name": "Redstone Lamp",
+    "tag": "redstone_lamp"
+  },
+  {
+    "name": "Redstone Lamp On",
+    "tag": "redstone_lamp_on"
+  },
+  {
+    "name": "Redstone Ore",
+    "tag": "redstone_ore"
+  },
+  {
+    "name": "Redstone Torch",
+    "tag": "redstone_torch"
+  },
+  {
+    "name": "Repeating Command Block Back",
+    "tag": "repeating_command_block_back"
+  },
+  {
+    "name": "Sunflower Top",
+    "tag": "sunflower_top"
+  },
+  {
+    "name": "Sunflower Back",
+    "tag": "sunflower_back"
+  },
+  {
+    "name": "Pink Concrete",
+    "tag": "pink_concrete"
+  },
+  {
+    "name": "Pink Concrete Powder",
+    "tag": "pink_concrete_powder"
+  },
+  {
+    "name": "Potted Azalea Bush Top",
+    "tag": "potted_azalea_bush_top"
+  },
+  {
+    "name": "Potted Flowering Azalea Bush Plant",
+    "tag": "potted_flowering_azalea_bush_plant"
+  },
+  {
+    "name": "Piston Inner",
+    "tag": "piston_inner"
+  },
+  {
+    "name": "Pointed Dripstone Down Frustum",
+    "tag": "pointed_dripstone_down_frustum"
+  },
+  {
+    "name": "Pointed Dripstone Up Middle",
+    "tag": "pointed_dripstone_up_middle"
+  },
+  {
+    "name": "Polished Granite",
+    "tag": "polished_granite"
+  },
+  {
+    "name": "Polished Andesite",
+    "tag": "polished_andesite"
+  },
+  {
+    "name": "Potatoes Stage0",
+    "tag": "potatoes_stage0"
+  },
+  {
+    "name": "Potatoes Stage3",
+    "tag": "potatoes_stage3"
+  },
+  {
+    "name": "Potatoes Stage2",
+    "tag": "potatoes_stage2"
+  },
+  {
+    "name": "Prismarine Bricks",
+    "tag": "prismarine_bricks"
+  },
+  {
+    "name": "Potted Flowering Azalea Bush Side",
+    "tag": "potted_flowering_azalea_bush_side"
+  },
+  {
+    "name": "Potted Flowering Azalea Bush Top",
+    "tag": "potted_flowering_azalea_bush_top"
+  },
+  {
+    "name": "Repeating Command Block Side",
+    "tag": "repeating_command_block_side"
+  },
+  {
+    "name": "Purple Shulker Box",
+    "tag": "purple_shulker_box"
+  },
+  {
+    "name": "Purple Candle Lit",
+    "tag": "purple_candle_lit"
+  },
+  {
+    "name": "Pumpkin Stem",
+    "tag": "pumpkin_stem"
+  },
+  {
+    "name": "Purple Stained Glass",
+    "tag": "purple_stained_glass"
+  },
+  {
+    "name": "Purple Glazed Terracotta",
+    "tag": "purple_glazed_terracotta"
+  },
+  {
+    "name": "Purple Terracotta",
+    "tag": "purple_terracotta"
+  },
+  {
+    "name": "Respawn Anchor Bottom",
+    "tag": "respawn_anchor_bottom"
+  },
+  {
+    "name": "Sculk Sensor Side",
+    "tag": "sculk_sensor_side"
+  },
+  {
+    "name": "Sea Pickle",
+    "tag": "sea_pickle"
+  },
+  {
+    "name": "Smithing Table Top",
+    "tag": "smithing_table_top"
+  },
+  {
+    "name": "Small Dripleaf Top",
+    "tag": "small_dripleaf_top"
+  },
+  {
+    "name": "Small Dripleaf Stem Top",
+    "tag": "small_dripleaf_stem_top"
+  },
+  {
+    "name": "Smooth Basalt",
+    "tag": "smooth_basalt"
+  },
+  {
+    "name": "Smooth Stone",
+    "tag": "smooth_stone"
+  },
+  {
+    "name": "Turtle Egg",
+    "tag": "turtle_egg"
+  },
+  {
+    "name": "Tripwire",
+    "tag": "tripwire"
+  },
+  {
+    "name": "Turtle Egg Slightly Cracked",
+    "tag": "turtle_egg_slightly_cracked"
+  },
+  {
+    "name": "Turtle Egg Very Cracked",
+    "tag": "turtle_egg_very_cracked"
+  },
+  {
+    "name": "Vine",
+    "tag": "vine"
+  },
+  {
+    "name": "Wheat Stage4",
+    "tag": "wheat_stage4"
+  },
+  {
+    "name": "Weeping Vines",
+    "tag": "weeping_vines"
+  },
+  {
+    "name": "Warped Roots",
+    "tag": "warped_roots"
+  },
+  {
+    "name": "Warped Roots Pot",
+    "tag": "warped_roots_pot"
+  },
+  {
+    "name": "Water Still",
+    "tag": "water_still"
+  },
+  {
+    "name": "White Shulker Box",
+    "tag": "white_shulker_box"
+  },
+  {
+    "name": "Wheat Stage1",
+    "tag": "wheat_stage1"
+  },
+  {
+    "name": "Wheat Stage6",
+    "tag": "wheat_stage6"
+  },
+  {
+    "name": "Yellow Candle",
+    "tag": "yellow_candle"
+  },
+  {
+    "name": "Yellow Stained Glass Pane Top",
+    "tag": "yellow_stained_glass_pane_top"
+  },
+  {
+    "name": "Yellow Terracotta",
+    "tag": "yellow_terracotta"
+  },
+  {
+    "name": "Acacia Door Top",
+    "tag": "acacia_door_top"
+  },
+  {
+    "name": "Acacia Sapling",
+    "tag": "acacia_sapling"
+  },
+  {
+    "name": "Acacia Trapdoor",
+    "tag": "acacia_trapdoor"
+  },
+  {
+    "name": "Amethyst Block",
+    "tag": "amethyst_block"
+  },
+  {
+    "name": "Amethyst Cluster",
+    "tag": "amethyst_cluster"
+  },
+  {
+    "name": "Ancient Debris Side",
+    "tag": "ancient_debris_side"
+  },
+  {
+    "name": "Ancient Debris Top",
+    "tag": "ancient_debris_top"
+  },
+  {
+    "name": "Andesite",
+    "tag": "andesite"
+  },
+  {
+    "name": "Anvil",
+    "tag": "anvil"
+  },
+  {
+    "name": "Attached Melon Stem",
+    "tag": "attached_melon_stem"
+  },
+  {
+    "name": "Bamboo Large Leaves",
+    "tag": "bamboo_large_leaves"
+  },
+  {
+    "name": "Bamboo Stage0",
+    "tag": "bamboo_stage0"
+  },
+  {
+    "name": "Bamboo Stalk",
+    "tag": "bamboo_stalk"
+  },
+  {
+    "name": "Barrel Top",
+    "tag": "barrel_top"
+  },
+  {
+    "name": "Beehive End",
+    "tag": "beehive_end"
+  },
+  {
+    "name": "Beehive Front Honey",
+    "tag": "beehive_front_honey"
+  },
+  {
+    "name": "Beehive Side",
+    "tag": "beehive_side"
+  },
+  {
+    "name": "Beetroots Stage0",
+    "tag": "beetroots_stage0"
+  },
+  {
+    "name": "Beetroots Stage2",
+    "tag": "beetroots_stage2"
+  },
+  {
+    "name": "Bell Bottom",
+    "tag": "bell_bottom"
+  },
+  {
+    "name": "Big Dripleaf Side",
+    "tag": "big_dripleaf_side"
+  },
+  {
+    "name": "Birch Log",
+    "tag": "birch_log"
+  },
+  {
+    "name": "Black Glazed Terracotta",
+    "tag": "black_glazed_terracotta"
+  },
+  {
+    "name": "Black Shulker Box",
+    "tag": "black_shulker_box"
+  },
+  {
+    "name": "Black Stained Glass",
+    "tag": "black_stained_glass"
+  },
+  {
+    "name": "Black Stained Glass Pane Top",
+    "tag": "black_stained_glass_pane_top"
+  },
+  {
+    "name": "Blast Furnace Front",
+    "tag": "blast_furnace_front"
+  },
+  {
+    "name": "Blast Furnace Side",
+    "tag": "blast_furnace_side"
+  },
+  {
+    "name": "Blast Furnace Top",
+    "tag": "blast_furnace_top"
+  },
+  {
+    "name": "Blue Ice",
+    "tag": "blue_ice"
+  },
+  {
+    "name": "Blue Orchid",
+    "tag": "blue_orchid"
+  },
+  {
+    "name": "Blue Stained Glass Pane Top",
+    "tag": "blue_stained_glass_pane_top"
+  },
+  {
+    "name": "Bone Block Side",
+    "tag": "bone_block_side"
+  },
+  {
+    "name": "Brewing Stand Base",
+    "tag": "brewing_stand_base"
+  },
+  {
+    "name": "Bricks",
+    "tag": "bricks"
+  },
+  {
+    "name": "Brown Stained Glass",
+    "tag": "brown_stained_glass"
+  },
+  {
+    "name": "Brown Wool",
+    "tag": "brown_wool"
+  },
+  {
+    "name": "Cactus Top",
+    "tag": "cactus_top"
+  },
+  {
+    "name": "Cake Inner",
+    "tag": "cake_inner"
+  },
+  {
+    "name": "Campfire Log Lit",
+    "tag": "campfire_log_lit"
+  },
+  {
+    "name": "Carrots Stage0",
+    "tag": "carrots_stage0"
+  },
+  {
+    "name": "Cartography Table Top",
+    "tag": "cartography_table_top"
+  },
+  {
+    "name": "Cauldron Bottom",
+    "tag": "cauldron_bottom"
+  },
+  {
+    "name": "Cauldron Inner",
+    "tag": "cauldron_inner"
+  },
+  {
+    "name": "Cauldron Side",
+    "tag": "cauldron_side"
+  },
+  {
+    "name": "Cave Vines Plant Lit",
+    "tag": "cave_vines_plant_lit"
+  },
+  {
+    "name": "Chain Command Block Front",
+    "tag": "chain_command_block_front"
+  },
+  {
+    "name": "Chipped Anvil Top",
+    "tag": "chipped_anvil_top"
+  },
+  {
+    "name": "Chiseled Deepslate",
+    "tag": "chiseled_deepslate"
+  },
+  {
+    "name": "Chiseled Polished Blackstone",
+    "tag": "chiseled_polished_blackstone"
+  },
+  {
+    "name": "Chiseled Quartz Block Top",
+    "tag": "chiseled_quartz_block_top"
+  },
+  {
+    "name": "Coarse Dirt",
+    "tag": "coarse_dirt"
+  },
+  {
+    "name": "Cobblestone",
+    "tag": "cobblestone"
+  },
+  {
+    "name": "Cobweb",
+    "tag": "cobweb"
+  },
+  {
+    "name": "Composter Bottom",
+    "tag": "composter_bottom"
+  },
+  {
+    "name": "Composter Ready",
+    "tag": "composter_ready"
+  },
+  {
+    "name": "Copper Block",
+    "tag": "copper_block"
+  },
+  {
+    "name": "Creeper Banner Pattern",
+    "tag": "creeper_banner_pattern"
+  },
+  {
+    "name": "Diamond Hoe",
+    "tag": "diamond_hoe"
+  },
+  {
+    "name": "Oak Sapling",
+    "tag": "oak_sapling"
+  },
+  {
+    "name": "Red Terracotta",
+    "tag": "red_terracotta"
+  },
+  {
+    "name": "Red Tulip",
+    "tag": "red_tulip"
+  },
+  {
+    "name": "Repeater On",
+    "tag": "repeater_on"
+  },
+  {
+    "name": "Structure Block Data",
+    "tag": "structure_block_data"
+  },
+  {
+    "name": "Structure Block Save",
+    "tag": "structure_block_save"
+  },
+  {
+    "name": "Sweet Berry Bush Stage0",
+    "tag": "sweet_berry_bush_stage0"
+  },
+  {
+    "name": "Sweet Berry Bush Stage1",
+    "tag": "sweet_berry_bush_stage1"
+  },
+  {
+    "name": "Pink Shulker Box",
+    "tag": "pink_shulker_box"
+  },
+  {
+    "name": "Pink Stained Glass",
+    "tag": "pink_stained_glass"
+  },
+  {
+    "name": "Pink Tulip",
+    "tag": "pink_tulip"
+  },
+  {
+    "name": "Potatoes Stage1",
+    "tag": "potatoes_stage1"
+  },
+  {
+    "name": "Piston Top",
+    "tag": "piston_top"
+  },
+  {
+    "name": "Piston Top Sticky",
+    "tag": "piston_top_sticky"
+  },
+  {
+    "name": "Podzol Side",
+    "tag": "podzol_side"
+  },
+  {
+    "name": "Smoker Front",
+    "tag": "smoker_front"
+  },
+  {
+    "name": "Poppy",
+    "tag": "poppy"
+  },
+  {
+    "name": "Pumpkin Top",
+    "tag": "pumpkin_top"
+  },
+  {
+    "name": "Potted Azalea Bush Plant",
+    "tag": "potted_azalea_bush_plant"
+  },
+  {
+    "name": "Sculk Sensor Top",
+    "tag": "sculk_sensor_top"
+  },
+  {
+    "name": "Rose Bush Bottom",
+    "tag": "rose_bush_bottom"
+  },
+  {
+    "name": "Rose Bush Top",
+    "tag": "rose_bush_top"
+  },
+  {
+    "name": "Tube Coral Fan",
+    "tag": "tube_coral_fan"
+  },
+  {
+    "name": "Shroomlight",
+    "tag": "shroomlight"
+  },
+  {
+    "name": "Sea Lantern",
+    "tag": "sea_lantern"
+  },
+  {
+    "name": "Seagrass",
+    "tag": "seagrass"
+  },
+  {
+    "name": "Tripwire Hook",
+    "tag": "tripwire_hook"
+  },
+  {
+    "name": "Tube Coral Block",
+    "tag": "tube_coral_block"
+  },
+  {
+    "name": "White Candle Lit",
+    "tag": "white_candle_lit"
+  },
+  {
+    "name": "Small Dripleaf Side",
+    "tag": "small_dripleaf_side"
+  },
+  {
+    "name": "Smoker Bottom",
+    "tag": "smoker_bottom"
+  },
+  {
+    "name": "Smithing Table Front",
+    "tag": "smithing_table_front"
+  },
+  {
+    "name": "Warped Trapdoor",
+    "tag": "warped_trapdoor"
+  },
+  {
+    "name": "Wheat Stage2",
+    "tag": "wheat_stage2"
+  },
+  {
+    "name": "Warped Fungus",
+    "tag": "warped_fungus"
+  },
+  {
+    "name": "Warped Planks",
+    "tag": "warped_planks"
+  },
+  {
+    "name": "Weathered Copper",
+    "tag": "weathered_copper"
+  },
+  {
+    "name": "White Tulip",
+    "tag": "white_tulip"
+  },
+  {
+    "name": "Yellow Glazed Terracotta",
+    "tag": "yellow_glazed_terracotta"
+  },
+  {
+    "name": "Wheat Stage3",
+    "tag": "wheat_stage3"
+  },
+  {
+    "name": "Wither Rose",
+    "tag": "wither_rose"
+  },
+  {
+    "name": "Acacia Planks",
+    "tag": "acacia_planks"
+  },
+  {
+    "name": "Azalea Side",
+    "tag": "azalea_side"
+  },
+  {
+    "name": "Azalea Top",
+    "tag": "azalea_top"
+  },
+  {
+    "name": "Bamboo Singleleaf",
+    "tag": "bamboo_singleleaf"
+  },
+  {
+    "name": "Barrel Bottom",
+    "tag": "barrel_bottom"
+  },
+  {
+    "name": "Basalt Side",
+    "tag": "basalt_side"
+  },
+  {
+    "name": "Bee Nest Front",
+    "tag": "bee_nest_front"
+  },
+  {
+    "name": "Bell Top",
+    "tag": "bell_top"
+  },
+  {
+    "name": "Big Dripleaf Stem",
+    "tag": "big_dripleaf_stem"
+  },
+  {
+    "name": "Big Dripleaf Top",
+    "tag": "big_dripleaf_top"
+  },
+  {
+    "name": "Birch Door Bottom",
+    "tag": "birch_door_bottom"
+  },
+  {
+    "name": "Birch Log Top",
+    "tag": "birch_log_top"
+  },
+  {
+    "name": "Birch Sapling",
+    "tag": "birch_sapling"
+  },
+  {
+    "name": "Black Candle",
+    "tag": "black_candle"
+  },
+  {
+    "name": "Black Terracotta",
+    "tag": "black_terracotta"
+  },
+  {
+    "name": "Blue Stained Glass",
+    "tag": "blue_stained_glass"
+  },
+  {
+    "name": "Blue Terracotta",
+    "tag": "blue_terracotta"
+  },
+  {
+    "name": "Bone Block Top",
+    "tag": "bone_block_top"
+  },
+  {
+    "name": "Bookshelf",
+    "tag": "bookshelf"
+  },
+  {
+    "name": "Brown Candle",
+    "tag": "brown_candle"
+  },
+  {
+    "name": "Brown Concrete Powder",
+    "tag": "brown_concrete_powder"
+  },
+  {
+    "name": "Brown Glazed Terracotta",
+    "tag": "brown_glazed_terracotta"
+  },
+  {
+    "name": "Brown Shulker Box",
+    "tag": "brown_shulker_box"
+  },
+  {
+    "name": "Brown Terracotta",
+    "tag": "brown_terracotta"
+  },
+  {
+    "name": "Cactus Side",
+    "tag": "cactus_side"
+  },
+  {
+    "name": "Carrots Stage1",
+    "tag": "carrots_stage1"
+  },
+  {
+    "name": "Cartography Table Side3",
+    "tag": "cartography_table_side3"
+  },
+  {
+    "name": "Carved Pumpkin",
+    "tag": "carved_pumpkin"
+  },
+  {
+    "name": "Cave Vines",
+    "tag": "cave_vines"
+  },
+  {
+    "name": "Cave Vines Lit",
+    "tag": "cave_vines_lit"
+  },
+  {
+    "name": "Chain",
+    "tag": "chain"
+  },
+  {
+    "name": "Chiseled Nether Bricks",
+    "tag": "chiseled_nether_bricks"
+  },
+  {
+    "name": "Chorus Flower",
+    "tag": "chorus_flower"
+  },
+  {
+    "name": "Cocoa Stage1",
+    "tag": "cocoa_stage1"
+  },
+  {
+    "name": "Cocoa Stage2",
+    "tag": "cocoa_stage2"
+  },
+  {
+    "name": "Comparator",
+    "tag": "comparator"
+  },
+  {
+    "name": "Comparator On",
+    "tag": "comparator_on"
+  },
+  {
+    "name": "Egg",
+    "tag": "egg"
+  },
+  {
+    "name": "Composter Compost",
+    "tag": "composter_compost"
+  },
+  {
+    "name": "Composter Side",
+    "tag": "composter_side"
+  },
+  {
+    "name": "Composter Top",
+    "tag": "composter_top"
+  },
+  {
+    "name": "Lime Stained Glass Pane Top",
+    "tag": "lime_stained_glass_pane_top"
+  },
+  {
+    "name": "Light Gray Glazed Terracotta",
+    "tag": "light_gray_glazed_terracotta"
+  },
+  {
+    "name": "Light Gray Concrete Powder",
+    "tag": "light_gray_concrete_powder"
+  },
+  {
+    "name": "Daylight Detector Inverted Top",
+    "tag": "daylight_detector_inverted_top"
+  },
+  {
+    "name": "Magenta Glazed Terracotta",
+    "tag": "magenta_glazed_terracotta"
+  },
+  {
+    "name": "Cyan Stained Glass Pane Top",
+    "tag": "cyan_stained_glass_pane_top"
+  },
+  {
+    "name": "Bone Meal",
+    "tag": "bone_meal"
+  },
+  {
+    "name": "Bow Pulling 1",
+    "tag": "bow_pulling_1"
+  },
+  {
+    "name": "Brick",
+    "tag": "brick"
+  },
+  {
+    "name": "Broken Elytra",
+    "tag": "broken_elytra"
+  },
+  {
+    "name": "Chicken",
+    "tag": "chicken"
+  },
+  {
+    "name": "Clock 05",
+    "tag": "clock_05"
+  },
+  {
+    "name": "Clock 06",
+    "tag": "clock_06"
+  },
+  {
+    "name": "Clock 14",
+    "tag": "clock_14"
+  },
+  {
+    "name": "Clock 26",
+    "tag": "clock_26"
+  },
+  {
+    "name": "Clock 27",
+    "tag": "clock_27"
+  },
+  {
+    "name": "Clock 30",
+    "tag": "clock_30"
+  },
+  {
+    "name": "Clock 31",
+    "tag": "clock_31"
+  },
+  {
+    "name": "Clock 33",
+    "tag": "clock_33"
+  },
+  {
+    "name": "Clock 35",
+    "tag": "clock_35"
+  },
+  {
+    "name": "Clock 43",
+    "tag": "clock_43"
+  },
+  {
+    "name": "Clock 48",
+    "tag": "clock_48"
+  },
+  {
+    "name": "Clock 52",
+    "tag": "clock_52"
+  },
+  {
+    "name": "Clock 56",
+    "tag": "clock_56"
+  },
+  {
+    "name": "Clock 59",
+    "tag": "clock_59"
+  },
+  {
+    "name": "Cocoa Beans",
+    "tag": "cocoa_beans"
+  },
+  {
+    "name": "Compass 00",
+    "tag": "compass_00"
+  },
+  {
+    "name": "Compass 04",
+    "tag": "compass_04"
+  },
+  {
+    "name": "Compass 06",
+    "tag": "compass_06"
+  },
+  {
+    "name": "Compass 15",
+    "tag": "compass_15"
+  },
+  {
+    "name": "Compass 17",
+    "tag": "compass_17"
+  },
+  {
+    "name": "Compass 18",
+    "tag": "compass_18"
+  },
+  {
+    "name": "Compass 21",
+    "tag": "compass_21"
+  },
+  {
+    "name": "Compass 22",
+    "tag": "compass_22"
+  },
+  {
+    "name": "Compass 23",
+    "tag": "compass_23"
+  },
+  {
+    "name": "Compass 27",
+    "tag": "compass_27"
+  },
+  {
+    "name": "Compass 28",
+    "tag": "compass_28"
+  },
+  {
+    "name": "Compass 30",
+    "tag": "compass_30"
+  },
+  {
+    "name": "Cooked Beef",
+    "tag": "cooked_beef"
+  },
+  {
+    "name": "Cookie",
+    "tag": "cookie"
+  },
+  {
+    "name": "Crossbow Firework",
+    "tag": "crossbow_firework"
+  },
+  {
+    "name": "Crossbow Pulling 2",
+    "tag": "crossbow_pulling_2"
+  },
+  {
+    "name": "Crossbow Standby",
+    "tag": "crossbow_standby"
+  },
+  {
+    "name": "Cyan Dye",
+    "tag": "cyan_dye"
+  },
+  {
+    "name": "Dark Oak Door",
+    "tag": "dark_oak_door"
+  },
+  {
+    "name": "Diamond Chestplate",
+    "tag": "diamond_chestplate"
+  },
+  {
+    "name": "End Crystal",
+    "tag": "end_crystal"
+  },
+  {
+    "name": "Experience Bottle",
+    "tag": "experience_bottle"
+  },
+  {
+    "name": "Feather",
+    "tag": "feather"
+  },
+  {
+    "name": "Firework Star Overlay",
+    "tag": "firework_star_overlay"
+  },
+  {
+    "name": "Glass Bottle",
+    "tag": "glass_bottle"
+  },
+  {
+    "name": "Glistering Melon Slice",
+    "tag": "glistering_melon_slice"
+  },
+  {
+    "name": "Globe Banner Pattern",
+    "tag": "globe_banner_pattern"
+  },
+  {
+    "name": "Golden Apple",
+    "tag": "golden_apple"
+  },
+  {
+    "name": "Golden Helmet",
+    "tag": "golden_helmet"
+  },
+  {
+    "name": "Golden Horse Armor",
+    "tag": "golden_horse_armor"
+  },
+  {
+    "name": "Heart Of The Sea",
+    "tag": "heart_of_the_sea"
+  },
+  {
+    "name": "Honey Bottle",
+    "tag": "honey_bottle"
+  },
+  {
+    "name": "Ink Sac",
+    "tag": "ink_sac"
+  },
+  {
+    "name": "Jungle Sign",
+    "tag": "jungle_sign"
+  },
+  {
+    "name": "Knowledge Book",
+    "tag": "knowledge_book"
+  },
+  {
+    "name": "Lava Bucket",
+    "tag": "lava_bucket"
+  },
+  {
+    "name": "Leather",
+    "tag": "leather"
+  },
+  {
+    "name": "Leather Boots Overlay",
+    "tag": "leather_boots_overlay"
+  },
+  {
+    "name": "Light 02",
+    "tag": "light_02"
+  },
+  {
+    "name": "Light 13",
+    "tag": "light_13"
+  },
+  {
+    "name": "Map",
+    "tag": "map"
+  },
+  {
+    "name": "Melon Slice",
+    "tag": "melon_slice"
+  },
+  {
+    "name": "Music Disc Chirp",
+    "tag": "music_disc_chirp"
+  },
+  {
+    "name": "Music Disc Mellohi",
+    "tag": "music_disc_mellohi"
+  },
+  {
+    "name": "Music Disc Stal",
+    "tag": "music_disc_stal"
+  },
+  {
+    "name": "Music Disc Wait",
+    "tag": "music_disc_wait"
+  },
+  {
+    "name": "Nautilus Shell",
+    "tag": "nautilus_shell"
+  },
+  {
+    "name": "Netherite Chestplate",
+    "tag": "netherite_chestplate"
+  },
+  {
+    "name": "Netherite Scrap",
+    "tag": "netherite_scrap"
+  },
+  {
+    "name": "Netherite Shovel",
+    "tag": "netherite_shovel"
+  },
+  {
+    "name": "Nether Wart",
+    "tag": "nether_wart"
+  },
+  {
+    "name": "Oak Sign",
+    "tag": "oak_sign"
+  },
+  {
+    "name": "Painting",
+    "tag": "painting"
+  },
+  {
+    "name": "Poisonous Potato",
+    "tag": "poisonous_potato"
+  },
+  {
+    "name": "Porkchop",
+    "tag": "porkchop"
+  },
+  {
+    "name": "Potato",
+    "tag": "potato"
+  },
+  {
+    "name": "Light 12",
+    "tag": "light_12"
+  },
+  {
+    "name": "Mojang Banner Pattern",
+    "tag": "mojang_banner_pattern"
+  },
+  {
+    "name": "Mushroom Stew",
+    "tag": "mushroom_stew"
+  },
+  {
+    "name": "Name Tag",
+    "tag": "name_tag"
+  },
+  {
+    "name": "Paper",
+    "tag": "paper"
+  },
+  {
+    "name": "Rabbit Hide",
+    "tag": "rabbit_hide"
+  },
+  {
+    "name": "Raw Copper",
+    "tag": "raw_copper"
+  },
+  {
+    "name": "Raw Gold",
+    "tag": "raw_gold"
+  },
+  {
+    "name": "Spider Eye",
+    "tag": "spider_eye"
+  },
+  {
+    "name": "Splash Potion",
+    "tag": "splash_potion"
+  },
+  {
+    "name": "Spruce Sign",
+    "tag": "spruce_sign"
+  },
+  {
+    "name": "Stone Hoe",
+    "tag": "stone_hoe"
+  },
+  {
+    "name": "Stone Sword",
+    "tag": "stone_sword"
+  },
+  {
+    "name": "String",
+    "tag": "string"
+  },
+  {
+    "name": "Structure Void",
+    "tag": "structure_void"
+  },
+  {
+    "name": "Tipped Arrow Head",
+    "tag": "tipped_arrow_head"
+  },
+  {
+    "name": "Warped Fungus On A Stick",
+    "tag": "warped_fungus_on_a_stick"
+  },
+  {
+    "name": "Wooden Pickaxe",
+    "tag": "wooden_pickaxe"
+  },
+  {
+    "name": "Spruce Boat",
+    "tag": "spruce_boat"
+  },
+  {
+    "name": "Spyglass",
+    "tag": "spyglass"
+  },
+  {
+    "name": "Sugar",
+    "tag": "sugar"
+  },
+  {
+    "name": "Tipped Arrow Base",
+    "tag": "tipped_arrow_base"
+  },
+  {
+    "name": "Trident",
+    "tag": "trident"
+  },
+  {
+    "name": "Wooden Shovel",
+    "tag": "wooden_shovel"
+  },
+  {
+    "name": "Dark Oak Sign",
+    "tag": "dark_oak_sign"
+  },
+  {
+    "name": "Diamond Leggings",
+    "tag": "diamond_leggings"
+  },
+  {
+    "name": "Diamond Pickaxe",
+    "tag": "diamond_pickaxe"
+  },
+  {
+    "name": "Dragon Breath",
+    "tag": "dragon_breath"
+  },
+  {
+    "name": "Emerald",
+    "tag": "emerald"
+  },
+  {
+    "name": "Empty Armor Slot Boots",
+    "tag": "empty_armor_slot_boots"
+  },
+  {
+    "name": "Fermented Spider Eye",
+    "tag": "fermented_spider_eye"
+  },
+  {
+    "name": "Filled Map",
+    "tag": "filled_map"
+  },
+  {
+    "name": "Fire Charge",
+    "tag": "fire_charge"
+  },
+  {
+    "name": "Golden Carrot",
+    "tag": "golden_carrot"
+  },
+  {
+    "name": "Gold Ingot",
+    "tag": "gold_ingot"
+  },
+  {
+    "name": "Gold Nugget",
+    "tag": "gold_nugget"
+  },
+  {
+    "name": "Honeycomb",
+    "tag": "honeycomb"
+  },
+  {
+    "name": "Iron Door",
+    "tag": "iron_door"
+  },
+  {
+    "name": "Iron Pickaxe",
+    "tag": "iron_pickaxe"
+  },
+  {
+    "name": "Jungle Boat",
+    "tag": "jungle_boat"
+  },
+  {
+    "name": "Lapis Lazuli",
+    "tag": "lapis_lazuli"
+  },
+  {
+    "name": "Leather Helmet Overlay",
+    "tag": "leather_helmet_overlay"
+  },
+  {
+    "name": "Light 03",
+    "tag": "light_03"
+  },
+  {
+    "name": "Light 11",
+    "tag": "light_11"
+  },
+  {
+    "name": "Minecart",
+    "tag": "minecart"
+  },
+  {
+    "name": "Music Disc 13",
+    "tag": "music_disc_13"
+  },
+  {
+    "name": "Mutton",
+    "tag": "mutton"
+  },
+  {
+    "name": "Netherite Boots",
+    "tag": "netherite_boots"
+  },
+  {
+    "name": "Netherite Pickaxe",
+    "tag": "netherite_pickaxe"
+  },
+  {
+    "name": "Oak Boat",
+    "tag": "oak_boat"
+  },
+  {
+    "name": "Orange Dye",
+    "tag": "orange_dye"
+  },
+  {
+    "name": "Pointed Dripstone",
+    "tag": "pointed_dripstone"
+  },
+  {
+    "name": "Potion",
+    "tag": "potion"
+  },
+  {
+    "name": "Prismarine Shard",
+    "tag": "prismarine_shard"
+  },
+  {
+    "name": "Pumpkin Pie",
+    "tag": "pumpkin_pie"
+  },
+  {
+    "name": "Raw Iron",
+    "tag": "raw_iron"
+  },
+  {
+    "name": "Red Dye",
+    "tag": "red_dye"
+  },
+  {
+    "name": "Saddle",
+    "tag": "saddle"
+  },
+  {
+    "name": "Shulker Shell",
+    "tag": "shulker_shell"
+  },
+  {
+    "name": "Stone Pickaxe",
+    "tag": "stone_pickaxe"
+  },
+  {
+    "name": "Wooden Axe",
+    "tag": "wooden_axe"
+  },
+  {
+    "name": "Pufferfish Bucket",
+    "tag": "pufferfish_bucket"
+  },
+  {
+    "name": "Pumpkin Seeds",
+    "tag": "pumpkin_seeds"
+  },
+  {
+    "name": "Spawn Egg Overlay",
+    "tag": "spawn_egg_overlay"
+  },
+  {
+    "name": "Stone Shovel",
+    "tag": "stone_shovel"
+  },
+  {
+    "name": "Tropical Fish",
+    "tag": "tropical_fish"
+  },
+  {
+    "name": "Tropical Fish Bucket",
+    "tag": "tropical_fish_bucket"
+  },
+  {
+    "name": "Warped Sign",
+    "tag": "warped_sign"
+  },
+  {
+    "name": "Repeating Command Block Front",
+    "tag": "repeating_command_block_front"
+  },
+  {
+    "name": "Brown Stained Glass Pane Top",
+    "tag": "brown_stained_glass_pane_top"
+  },
+  {
+    "name": "Light Blue Dye",
+    "tag": "light_blue_dye"
+  },
+  {
+    "name": "Magenta Dye",
+    "tag": "magenta_dye"
+  },
+  {
+    "name": "Milk Bucket",
+    "tag": "milk_bucket"
+  },
+  {
+    "name": "Netherite Axe",
+    "tag": "netherite_axe"
+  },
+  {
+    "name": "Netherite Helmet",
+    "tag": "netherite_helmet"
+  },
+  {
+    "name": "Pufferfish",
+    "tag": "pufferfish"
+  },
+  {
+    "name": "Slime Ball",
+    "tag": "slime_ball"
+  },
+  {
+    "name": "Spawn Egg",
+    "tag": "spawn_egg"
+  },
+  {
+    "name": "Spruce Door",
+    "tag": "spruce_door"
+  },
+  {
+    "name": "Stick",
+    "tag": "stick"
+  },
+  {
+    "name": "Sweet Berries",
+    "tag": "sweet_berries"
+  },
+  {
+    "name": "Turtle Helmet",
+    "tag": "turtle_helmet"
+  },
+  {
+    "name": "Wooden Sword",
+    "tag": "wooden_sword"
+  },
+  {
+    "name": "Shears",
+    "tag": "shears"
+  },
+  {
+    "name": "Skull Banner Pattern",
+    "tag": "skull_banner_pattern"
+  },
+  {
+    "name": "Stone Axe",
+    "tag": "stone_axe"
+  },
+  {
+    "name": "Suspicious Stew",
+    "tag": "suspicious_stew"
+  },
+  {
+    "name": "Warped Door",
+    "tag": "warped_door"
+  },
+  {
+    "name": "White Dye",
+    "tag": "white_dye"
+  },
+  {
+    "name": "Yellow Dye",
+    "tag": "yellow_dye"
+  },
+  {
+    "name": "Crossbow Pulling 0",
+    "tag": "crossbow_pulling_0"
+  },
+  {
+    "name": "Diamond Boots",
+    "tag": "diamond_boots"
+  },
+  {
+    "name": "Empty Armor Slot Chestplate",
+    "tag": "empty_armor_slot_chestplate"
+  },
+  {
+    "name": "Empty Armor Slot Helmet",
+    "tag": "empty_armor_slot_helmet"
+  },
+  {
+    "name": "Enchanted Book",
+    "tag": "enchanted_book"
+  },
+  {
+    "name": "Ender Pearl",
+    "tag": "ender_pearl"
+  },
+  {
+    "name": "Firework Star",
+    "tag": "firework_star"
+  },
+  {
+    "name": "Flint",
+    "tag": "flint"
+  },
+  {
+    "name": "Flower Banner Pattern",
+    "tag": "flower_banner_pattern"
+  },
+  {
+    "name": "Ghast Tear",
+    "tag": "ghast_tear"
+  },
+  {
+    "name": "Golden Boots",
+    "tag": "golden_boots"
+  },
+  {
+    "name": "Golden Pickaxe",
+    "tag": "golden_pickaxe"
+  },
+  {
+    "name": "Iron Axe",
+    "tag": "iron_axe"
+  },
+  {
+    "name": "Iron Boots",
+    "tag": "iron_boots"
+  },
+  {
+    "name": "Iron Ingot",
+    "tag": "iron_ingot"
+  },
+  {
+    "name": "Leather Boots",
+    "tag": "leather_boots"
+  },
+  {
+    "name": "Light",
+    "tag": "light"
+  },
+  {
+    "name": "Light 01",
+    "tag": "light_01"
+  },
+  {
+    "name": "Light 05",
+    "tag": "light_05"
+  },
+  {
+    "name": "Light 07",
+    "tag": "light_07"
+  },
+  {
+    "name": "Light 10",
+    "tag": "light_10"
+  },
+  {
+    "name": "Light 15",
+    "tag": "light_15"
+  },
+  {
+    "name": "Lime Dye",
+    "tag": "lime_dye"
+  },
+  {
+    "name": "Melon Seeds",
+    "tag": "melon_seeds"
+  },
+  {
+    "name": "Music Disc 11",
+    "tag": "music_disc_11"
+  },
+  {
+    "name": "Music Disc Mall",
+    "tag": "music_disc_mall"
+  },
+  {
+    "name": "Music Disc Strad",
+    "tag": "music_disc_strad"
+  },
+  {
+    "name": "Nether Brick",
+    "tag": "nether_brick"
+  },
+  {
+    "name": "Netherite Hoe",
+    "tag": "netherite_hoe"
+  },
+  {
+    "name": "Netherite Leggings",
+    "tag": "netherite_leggings"
+  },
+  {
+    "name": "Piglin Banner Pattern",
+    "tag": "piglin_banner_pattern"
+  },
+  {
+    "name": "Prismarine Crystals",
+    "tag": "prismarine_crystals"
+  },
+  {
+    "name": "Spectral Arrow",
+    "tag": "spectral_arrow"
+  },
+  {
+    "name": "Tnt Minecart",
+    "tag": "tnt_minecart"
+  },
+  {
+    "name": "Written Book",
+    "tag": "written_book"
+  },
+  {
+    "name": "Potion Overlay",
+    "tag": "potion_overlay"
+  },
+  {
+    "name": "Rabbit Stew",
+    "tag": "rabbit_stew"
+  },
+  {
+    "name": "Redstone",
+    "tag": "redstone"
+  },
+  {
+    "name": "Salmon Bucket",
+    "tag": "salmon_bucket"
+  },
+  {
+    "name": "Snowball",
+    "tag": "snowball"
+  },
+  {
+    "name": "Soul Campfire",
+    "tag": "soul_campfire"
+  },
+  {
+    "name": "Spyglass Model",
+    "tag": "spyglass_model"
+  },
+  {
+    "name": "Totem Of Undying",
+    "tag": "totem_of_undying"
+  },
+  {
+    "name": "Water Bucket",
+    "tag": "water_bucket"
+  },
+  {
+    "name": "Wheat",
+    "tag": "wheat"
+  },
+  {
+    "name": "Wheat Seeds",
+    "tag": "wheat_seeds"
+  },
+  {
+    "name": "Wooden Hoe",
+    "tag": "wooden_hoe"
+  },
+  {
+    "name": "Writable Book",
+    "tag": "writable_book"
+  },
+  {
+    "name": "Pointed Dripstone Down Middle",
+    "tag": "pointed_dripstone_down_middle"
+  },
+  {
+    "name": "Pointed Dripstone Down Tip",
+    "tag": "pointed_dripstone_down_tip"
+  },
+  {
+    "name": "Pointed Dripstone Up Base",
+    "tag": "pointed_dripstone_up_base"
+  },
+  {
+    "name": "Sculk Sensor Tendril Active",
+    "tag": "sculk_sensor_tendril_active"
+  },
+  {
+    "name": "Chain Command Block Conditional",
+    "tag": "chain_command_block_conditional"
+  },
+  {
+    "name": "Command Block Conditional",
+    "tag": "command_block_conditional"
   }
 ]
