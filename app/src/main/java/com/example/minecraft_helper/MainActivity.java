@@ -73,14 +73,14 @@ public class MainActivity extends AppCompatActivity {
         }
         comb = comb.substring(0, comb.length() - 1);
 
-        Toast.makeText(getApplicationContext(), comb, Toast.LENGTH_LONG).show();
+        Log.d("combination", comb);
 
         String item = this.receipts.get(comb);
 
         if (item == null)
             item = "Not Found";
 
-//        Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
     }
 
     private void readRawJSON(){
