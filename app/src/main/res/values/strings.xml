@@ -3,6 +3,8 @@
     <string name="what_is_it">What is it?</string>
     <string name="air">air</string>
     <string name="search">Search</string>
+    <string name="block_image">block image</string>
+    <string name="go_back">Go back</string>
     <string-array name="items_array">
         <item>A</item>
         <item>B</item>

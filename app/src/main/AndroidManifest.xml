@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MinecraftHelper">
         <activity
+            android:name=".ViewResult"
+            android:exported="true" />
+        <activity
             android:name=".ChooseItem"
             android:exported="true" />
         <activity

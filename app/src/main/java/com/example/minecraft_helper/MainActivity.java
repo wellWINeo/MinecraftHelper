@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
     Map<String, String> receipts = null;
 
-
-
     ActivityResultLauncher<Intent> mStartForResult = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
             result -> {
@@ -80,7 +78,10 @@ public class MainActivity extends AppCompatActivity {
         if (item == null)
             item = "Not Found";
 
-        Toast.makeText(getApplicationContext(), item, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, ViewResult.class);
+        intent.putExtra("title", item);
+        intent.putExtra("image", item);
+        startActivity(intent);
     }
 
     private void readRawJSON(){
