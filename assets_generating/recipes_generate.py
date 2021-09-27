@@ -103,7 +103,8 @@ rename = {
             "peony": "peony_top",
             "lilac": "lilac_top",
             "empty_map": "map",
-            "composter": "composter_side"
+            "composter": "composter_side",
+            "hay_bale": "hay_block_side"
         }
 
 def convert_name(name):

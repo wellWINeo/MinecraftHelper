@@ -4,7 +4,7 @@ import json
 import os
 
 # config
-DIR="./drawable-v24"
+DIR="/home/o__ni/code/study/android/MinecraftHelper/app/src/main/res/drawable-v24"
 
 def pretty_name(tag):
     return ' '.join(word.title() for word in tag.split('_'))

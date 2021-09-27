@@ -12,7 +12,4 @@
         <item>D</item>
         <item>E</item>
     </string-array>
-    <integer-array name="something">
-        <item>@drawable/earth_block</item>
-    </integer-array>
 </resources>

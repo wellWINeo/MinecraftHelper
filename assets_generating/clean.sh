@@ -1,11 +1,11 @@
 #!/usr/bin/bash
 
-IGNORE_ITEMS_FILE="ignores.txt"
-JSON_FILE="my.json"
-OUTPUT_FILE="output.txt"
+IGNORE_ITEMS_FILE="ignores_output.txt"
+JSON_FILE="recipes.json"
+OUTPUT_FILE="output.json"
 json="$(cat $JSON_FILE)"
 
-cat $IGNORE_ITEMS_FILE | uniq > $IGNORE_ITEMS_FILE
+#cat $IGNORE_ITEMS_FILE | sort | uniq > $IGNORE_ITEMS_FILE
 
 for line in $(cat $IGNORE_ITEMS_FILE); do
 	echo $line
