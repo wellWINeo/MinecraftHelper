@@ -4,19 +4,34 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Debug;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.EditText;
+import android.widget.Filter;
+import android.widget.Filterable;
+import android.widget.GridLayout;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+
 
 public class ChooseItem extends AppCompatActivity {
 
@@ -26,12 +41,10 @@ public class ChooseItem extends AppCompatActivity {
     EditText editText;
 
     // arrays
-    private final ArrayList<Integer> listImages = new ArrayList<>();
-    private final ArrayList<String> listItemsNames = new ArrayList<>();
-    private final ArrayList<String> listTags = new ArrayList<>();
+    private ArrayList<Item> itemList = new ArrayList<>();
 
     // adapter
-    private CustomListViewAdapter adapter;
+    private SearchAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,22 +55,14 @@ public class ChooseItem extends AppCompatActivity {
         textView = findViewById(R.id.txtView);
         editText = findViewById(R.id.etSearch);
 
-
-        this.adapter = new CustomListViewAdapter(this, listItemsNames,
-                listImages);
-
-        readItemsJSON();
-
-        listView.setAdapter(adapter);
-
-        listView.setOnItemClickListener((adapterView, view, i, l) -> {
-            String value = listTags.get(i);
-            Intent intent = new Intent();
-            intent.putExtra("value", value);
-            intent.putExtra("image", listImages.get(i));
-            setResult(RESULT_OK, intent);
-            finish();
-        });
+//        listView.setOnItemClickListener((adapterView, view, i, l) -> {
+//            String value = itemList.get(i).getTag();
+//            Intent intent = new Intent();
+//            intent.putExtra("value", value);
+//            intent.putExtra("image", itemList.get(i).getImage());
+//            setResult(RESULT_OK, intent);
+//            finish();
+//        });
 
         editText.addTextChangedListener(new TextWatcher() {
 
@@ -66,11 +71,7 @@ public class ChooseItem extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                if(charSequence.toString().equals("")){
-                    readItemsJSON();
-                } else {
-                    searchItem(charSequence.toString());
-                }
+                adapter.getFilter().filter(charSequence.toString());
             }
 
             @Override
@@ -78,39 +79,33 @@ public class ChooseItem extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        readItemsJSON();
+
+        adapter = new SearchAdapter(this, itemList);
+        listView.setAdapter(adapter);
+    }
 
     private void readItemsJSON(){
         // reading JSON to array
         InputStream is = getResources().openRawResource(R.raw.items);
-        Item[] items = new Gson().fromJson(new InputStreamReader(is), Item[].class);
+        itemList = new Gson().fromJson(new InputStreamReader(is),
+                new TypeToken<ArrayList<Item>>(){}.getType());
 
-        this.listItemsNames.clear();
-        this.listTags.clear();
-        this.listImages.clear();
-
-        Context context = getApplicationContext();
-        Resources resources = getResources();
-        for (Item item : items) {
-            this.listItemsNames.add(item.getName());
-            this.listTags.add(item.getTag());
-            this.listImages.add(resources.getIdentifier(item.getTag(),
-                    "drawable", context.getPackageName()));
+        for (Item item : itemList) {
+            int imgId = getResources().getIdentifier(item.getTag(),
+                    "drawable", getApplicationContext().getPackageName());
+            item.setImage(imgId);
         }
 
-        adapter.notifyDataSetChanged();
+        Log.d("Array_count", String.valueOf(itemList.size()));
+
+//        adapter.notifyDataSetChanged();
     }
 
-
-    private void searchItem(String str) {
-        for (int i = 0; i < listItemsNames.size(); i++){
-            if(!listItemsNames.get(i).toLowerCase()
-                .contains(str.toLowerCase())){
-                listItemsNames.remove(i);
-                listTags.remove(i);
-                listImages.remove(i);
-            }
-        }
-
-        adapter.notifyDataSetChanged();
-    }
 }
+
+

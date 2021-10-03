@@ -17,6 +17,14 @@ public class Item {
         this.tag = tag;
     }
 
+    private int Image = R.drawable.air;
+    public int getImage() {
+        return Image;
+    }
+    public void setImage(int image) {
+        Image = image;
+    }
+
     @Override
     public String toString() {
         return "Item{" +
