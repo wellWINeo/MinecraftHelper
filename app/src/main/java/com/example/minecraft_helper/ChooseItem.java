@@ -55,14 +55,14 @@ public class ChooseItem extends AppCompatActivity {
         textView = findViewById(R.id.txtView);
         editText = findViewById(R.id.etSearch);
 
-//        listView.setOnItemClickListener((adapterView, view, i, l) -> {
-//            String value = itemList.get(i).getTag();
-//            Intent intent = new Intent();
-//            intent.putExtra("value", value);
-//            intent.putExtra("image", itemList.get(i).getImage());
-//            setResult(RESULT_OK, intent);
-//            finish();
-//        });
+        listView.setOnItemClickListener((adapterView, view, i, l) -> {
+            String value = ((Item) adapter.getItem(i)).getName();
+            Intent intent = new Intent();
+            intent.putExtra("value", value);
+            intent.putExtra("image", ((Item) adapter.getItem(i)).getImage());
+            setResult(RESULT_OK, intent);
+            finish();
+        });
 
         editText.addTextChangedListener(new TextWatcher() {
 

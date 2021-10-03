@@ -34,7 +34,7 @@ public class SearchAdapter extends BaseAdapter implements Filterable {
 
     @Override
     public Object getItem(int i) {
-        return i;
+        return itemDisplayedList.get(i);
     }
 
     @Override
@@ -65,10 +65,6 @@ public class SearchAdapter extends BaseAdapter implements Filterable {
 
         holder.txtView.setText(this.itemDisplayedList.get(i).getName());
         holder.imgView.setImageResource(this.itemDisplayedList.get(i).getImage());
-
-        holder.glContainer.setOnClickListener(arg_view -> {
-            Toast.makeText(context, itemDisplayedList.get(i).getName(), Toast.LENGTH_LONG).show();
-        });
 
         return view;
     }
